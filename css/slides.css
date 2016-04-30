@@ -1,0 +1,165 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+#slides {
+	z-index:0;
+	width:960px;
+	height:350px;
+	display:block;
+	margin-top:14px;
+	position:relative;
+}
+
+#slides .slides_container {
+	z-index:0;
+	width:960px;
+	height:350px;
+	overflow:hidden;
+	display:none;
+	-moz-box-shadow: 0px 0px 10px 0px #999;
+	-webkit-box-shadow: 0px 0px 10px 0px #999;
+	box-shadow: 0px 0px 10px 0px #999;
+}
+
+#slides .slides_container a {
+	z-index:-500 !important;
+	display:block;
+}
+
+img {  
+	border-style: none;
+}
+.slides_container a img {
+	display:block;
+}
+
+.pagination {
+	width:200px;
+	position: absolute;
+	bottom: -20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: -32px;
+	z-index: 200;
+}
+
+.pagination li {
+	float:left;
+	margin-top: 0;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 10px;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+#slides .next, #slides .prev {
+	width:60px;
+	height:350px;
+	display:block;
+	z-index:200;
+	display:block;
+	background-color:transparent;
+	border-radius:3px;
+	position:absolute;
+}
+
+.prev a {
+	width:60px;
+	height:350px;
+	display:block;
+	background-image:url(../img/prev.png);
+	background-position:top;
+}
+.prev a:hover{
+	background-position:bottom;
+}
+.next a {
+	width:60px;
+	height:350px;
+	display:block;
+	background-image:url(../img/next.png);
+	background-position:top;
+}
+.next a:hover{
+	background-position:bottom;
+}
+#slides .next {
+	right:0px;
+	float:right;
+}
+#slides .prev {
+	left:0px;
+	float:left;
+}
+
+.slides_container div.slide {
+	width:960px;
+	height:350px;
+	display:block;
+}
+
+/*------------------------------------------------------------------------------------------DUPE------------------------------------------------------*/
+
+.floatLeft{float:left;}
+.floatRight{float:right;}
+.center{ margin-left:auto; margin-right:auto;}
+
+.idx1{
+	background-image:url(../img/banner_medical-waste-disposal.jpg);
+	width:960px;
+	height:350px;
+	cursor: pointer;
+	background-size:cover;
+}
+.idx2{
+	background-image:url(../img/banner_ecologically-sustainable.jpg);
+	width:960px;
+	height:350px;
+	cursor: pointer;
+	background-size:cover;
+
+}
+.idx3{
+	background-image:url(../img/banner_sharps-removal.jpg);
+	width:960px;
+	height:350px;
+	cursor: pointer;
+	background-size:cover;
+
+}
+.mainImageText{
+	font-family:"Anton";
+	color:#006db7 !important;
+	background-color:#FFF;
+	opacity: 0.8;
+	border-bottom-left-radius:4px;
+	padding-right:5px;
+}
+.mainImageText a:hover{
+	opacity: 0.5;
+}
+.textBox1{width:300px; margin:5px; text-align:right; margin-top: 15px;}
+.textBox2{margin-top:10px; color:black; clear:both; width:260px; padding:20px; padding-top:15px; border-top:1px solid grey;}
+
+.shadow{
+	-moz-box-shadow: 0px 0px 10px 0px #999;
+	-webkit-box-shadow: 0px 0px 10px 0px #999;
+	box-shadow: 0px 0px 10px 0px #999;
+}
+.space{height:10px;}
+
+.mainImageText h2, .mainImageText h5 {text-align:center;}

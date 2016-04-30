@@ -1,0 +1,104 @@
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+#nav, #nav ul { /* all lists */
+	padding:0px;
+	margin:0px;
+	list-style: none;
+	text-align:center;
+}
+
+#nav a {
+	display: block;
+	text-decoration:none;
+	font-family:"Dosis";
+	font-weight:bold;
+	font-size:19px;
+	height:40px !important;
+	color:#FFF !important;
+}
+#nav li { /* all list items */
+	float:left;
+	width: auto;
+	height:30px;
+	margin-right:28px;
+	margin-left:29px;
+	height:40px;
+}
+#nav li ul { /* second-level lists */
+	border-bottom-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-box-shadow: 0px 3px 10px 0px #999;
+	-webkit-box-shadow: 0px 3px 10px 0px #999;
+	box-shadow: 0px 3px 10px 0px #999;
+	position: absolute;
+	width: 215px !important;
+	padding: 5px;
+	left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+	background-color: #ededed;
+}
+
+.aboutSub{
+	margin-left:-66px !important;
+}
+.servicesSub{
+	margin-left:-54px !important;
+}
+.productsSub{
+	margin-left:-66px !important;
+}
+.contactSub{
+	margin-left:-80px !important;
+}
+.navCover{
+	background-color:#ededed;
+	position:relative;
+}
+#nav li ul li{
+	height:15px;
+	margin-left:0px !important;
+	margin-right:0px !important;
+	
+	margin-top:5px;
+	margin-bottom:0px;
+	display: block;
+	width:215px !important;
+	border-bottom-style: dashed;
+	border-right-style: none;
+	border-top-style: none;
+	border-left-style: none;
+	border-bottom-color: #999;
+	border-bottom-width: 1px;
+	border-spacing:10px;
+	padding-bottom:5px;
+}
+#nav li ul li.noBorder{border:none !important;}
+#nav li ul li a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:left;
+	width:215px;
+	color:#262626 !important;
+}
+#nav li ul li a:hover{
+	color:#94c400 !important;
+}
+#nav li:hover ul, #nav li.sfhover ul { /* lists nested under hovered list items */
+	left: auto;
+}
+
+#content {
+	clear: left;
+	color: #ccc;
+	font-weight:bolder;
+	animation:ease-in-out alternate;
+	z-index:500;
+}
+.arrow:hover{
+	background-image: url(../img/menu.png) !important;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
