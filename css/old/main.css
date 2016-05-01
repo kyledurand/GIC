@@ -4,9 +4,6 @@
   Primary Styles
   Author: Kyle Durand
 */
-@import url("menu.css");
-@import url(http://fonts.googleapis.com/css?family=Dosis);
-@import url(http://fonts.googleapis.com/css?family=Anton);
 body {
   margin: 0;
   font-size: 1em;
@@ -145,8 +142,6 @@ a:visited {
   border-top-right-radius: 3px;
   -webkit-border-top-right-radius: 3px;
   -moz-border-radius-topright: 3px;
-  -moz-box-shadow: 0px 3px 10px 0px #999;
-  -webkit-box-shadow: 0px 3px 10px 0px #999;
   box-shadow: 0px 3px 10px 0px #999;
   padding: 0;
   display: block;
@@ -164,8 +159,6 @@ a:visited {
   border-top-right-radius: 3px;
   -webkit-border-top-right-radius: 3px;
   -moz-border-radius-topright: 3px;
-  -moz-box-shadow: 0px 3px 10px 0px #999;
-  -webkit-box-shadow: 0px 3px 10px 0px #999;
   box-shadow: 0px 3px 10px 0px #999;
   padding: 0;
   display: block;
@@ -177,8 +170,6 @@ a:visited {
   padding-bottom: 10px; }
 
 header {
-  -moz-box-shadow: 0px 0px 10px 0px #999;
-  -webkit-box-shadow: 0px 0px 10px 0px #999;
   box-shadow: 0px 0px 10px 0px #999;
   height: 90px; }
 
@@ -366,8 +357,6 @@ p.ecofriendly {
   border-top-right-radius: 3px;
   -webkit-border-top-right-radius: 3px;
   -moz-border-radius-topright: 3px;
-  -moz-box-shadow: 0px 3px 10px 0px #999;
-  -webkit-box-shadow: 0px 3px 10px 0px #999;
   box-shadow: 0px 3px 10px 0px #999;
   padding: 0;
   display: block;
@@ -387,8 +376,6 @@ p.ecofriendly {
   border-bottom-right-radius: 3px;
   -webkit-border-bottom-right-radius: 3px;
   -moz-border-radius-bottomright: 3px;
-  -moz-box-shadow: 0px 3px 10px 0px #999;
-  -webkit-box-shadow: 0px 3px 10px 0px #999;
   box-shadow: 0px 3px 10px 0px #999;
   padding: 0;
   display: block;
@@ -434,12 +421,7 @@ img.gplus_icon {
 
 .bigGreenButton {
   background-image: linear-gradient(bottom, #8aa941 14%, #a4d43c 91%);
-  background-image: -o-linear-gradient(bottom, #8aa941 14%, #a4d43c 91%);
-  background-image: -moz-linear-gradient(bottom, #8aa941 14%, #a4d43c 91%);
-  background-image: -webkit-linear-gradient(bottom, #8aa941 14%, #a4d43c 91%);
   background-image: -ms-linear-gradient(bottom, #8aa941 14%, #a4d43c 91%);
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
   border-radius: 6px;
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.14, #8aa941), color-stop(0.91, #a4d43c));
   color: #FFFFFF !important;
@@ -466,12 +448,7 @@ img.gplus_icon {
 
 .bigBlueButton a {
   background-image: linear-gradient(bottom, #006eb7 14%, #0088d1 90%);
-  background-image: -o-linear-gradient(bottom, #006eb7 14%, #0088d1 90%);
-  background-image: -moz-linear-gradient(bottom, #006eb7 14%, #0088d1 90%);
-  background-image: -webkit-linear-gradient(bottom, #006eb7 14%, #0088d1 90%);
   background-image: -ms-linear-gradient(bottom, #006eb7 14%, #0088d1 90%);
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
   border-radius: 6px;
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.14, #006eb7), color-stop(0.9, #0088d1));
   color: #FFFFFF !important;

@@ -1,14 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=VT323);
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+@import url(http://fonts.googleapis.com/css?family=Anton);
 html {
   font-size: 62.5%; }
 
 body * {
   color: color(slate, base);
-  text-size-adjust: 100%;
-  letter-spacing: 0.125rem;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  font-family: system, -apple-system, ".SFNSDisplay-Regular", HelveticaNeue, LucidaGrande;
-  -webkit-font-smoothing: subpixel-antialiased; }
+  font-smoothing: subpixel-antialiased; }
 
 .type--heading {
   font-size: 2rem;
@@ -22,9 +23,6 @@ body * {
 
 .type--large {
   font-size: 2rem; }
-
-.type-digital {
-  font-family: 'VT323'; }
 
 * {
   font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 0, "lnum" 0, "dlig" 0; }

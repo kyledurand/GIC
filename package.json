@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/kyledurand/GIC#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.6"
   }
 }
