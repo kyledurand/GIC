@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+$font-size-map: (
+  small: 1.4rem,
+  medium: 1.6rem,
+  large: 2rem,
+);
+
+@function font-size($size) {
+  @return map-get($font-size-map, $size);
+}
+
+@mixin font-size($size) {
+  font-size: font-size($size);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  * {
+    color: color(slate, base);
+    text-size-adjust: 100%;
+    letter-spacing: 0.125rem;
+    text-rendering: optimizeLegibility;
+    font-family: system, -apple-system, ".SFNSDisplay-Regular", HelveticaNeue, LucidaGrande;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+}
+
+.type--heading {
+  @include font-size(large);
+  font-weight: 600;
+}
+
+.type--small {
+  @include font-size(small);
+}
+
+.type--medium {
+  @include font-size(medium);
+}
+
+.type--large {
+  @include font-size(large);
+}
+
+.type-digital {
+  font-family: 'VT323';
+}
+
+// Source: https://github.com/kennethormandy/normalize-opentype.css/blob/master/normalize-opentype.scss
+// Turns on kerning, standard ligatures, and proportional numerals.
+
+* {
+  font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 0, "lnum" 0, "dlig" 0;
+}

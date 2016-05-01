@@ -1,0 +1,13 @@
+// Globals
+@import 'base/layout';
+
+// Foundation
+@import 'foundation/defaults';
+@import 'foundation/colors';
+@import 'foundation/typography';
+
+// Components
+@import 'components/slider';
+
+// Non refactored code
+@import 'old/main.scss';
