@@ -1,22 +1,21 @@
 #nav, #nav ul {
-  padding: 0px;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
   list-style: none;
   text-align: center;
 }
 
 #nav a {
+  @include color(white, base);
   display: block;
   text-decoration: none;
   font-family: "Dosis";
   font-weight: bold;
   font-size: 20px;
-  height: 40px !important;
-  color: #FFF !important;
+  height: 40px;
 }
 
 #nav li {
-
   float: left;
   width: auto;
   height: 30px;
@@ -26,38 +25,30 @@
 }
 
 #nav li ul {
-
-  border-bottom-left-radius: 3px;
-  -webkit-border-bottom-left-radius: 3px;
-  -moz-border-radius-bottomleft: 3px;
-  border-bottom-right-radius: 3px;
-  -webkit-border-bottom-right-radius: 3px;
-  -moz-border-radius-bottomright: 3px;
-  -moz-box-shadow: 0px 3px 10px 0px #999;
-  -webkit-box-shadow: 0px 3px 10px 0px #999;
-  box-shadow: 0px 3px 10px 0px #999;
+  @include default(box-shadow);
   position: absolute;
-  width: 215px !important;
-  padding: 5px;
+  border-radius: 0 0 default(border-radius) default(border-radius);
+  width: 215px;
+  padding: default(spacing--small) / 2;
   left: -999em;
   background-color: #ededed;
   z-index:1000;
 }
 
 .aboutSub {
-  margin-left: -66px !important;
+  margin-left: -66px;
 }
 
 .servicesSub {
-  margin-left: -54px !important;
+  margin-left: -54px;
 }
 
 .productsSub {
-  margin-left: -66px !important;
+  margin-left: -66px;
 }
 
 .contactSub {
-  margin-left: -80px !important;
+  margin-left: -80px;
 }
 
 .navCover {
@@ -67,12 +58,12 @@
 
 #nav li ul li {
   height: 15px;
-  margin-left: 0px !important;
-  margin-right: 0px !important;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-top: 5px;
   margin-bottom: 0px;
   display: block;
-  width: 215px !important;
+  width: 215px;
   border-bottom-style: dashed;
   border-right-style: none;
   border-top-style: none;
@@ -84,7 +75,7 @@
 }
 
 #nav li ul li.noBorder {
-  border: none !important;
+  border: none;
 }
 
 #nav li ul li a {
@@ -92,11 +83,11 @@
   font-size: 12px;
   text-align: left;
   width: 215px;
-  color: #262626 !important;
+  color: #262626;
 }
 
 #nav li ul li a:hover {
-  color: #94c400 !important;
+  color: #94c400;
 }
 
 #nav li:hover ul, #nav li.sfhover ul  {
@@ -112,7 +103,7 @@
 }
 
 .arrow:hover {
-  background-image: url(../img/menu.png) !important;
+  background-image: url(../img/menu.png);
   background-repeat: no-repeat;
   background-position: center bottom;
 }

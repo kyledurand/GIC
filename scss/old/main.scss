@@ -49,7 +49,7 @@ h5 {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 8px 0;
-  color: #333 !important;
+  color: #333;
 }
 
 h6 {
@@ -131,7 +131,7 @@ ul {
 }
 
 a {
-  color: #006db7 !important;
+  color: #006db7;
 }
 
 a:visited {
@@ -297,27 +297,27 @@ textarea {
 
 /*Margins*/
 .spaceAround {
-  margin: 30px auto !important;
+  margin: 30px auto;
 }
 
 .mgnTContent {
-  margin-top: 370px !important;
+  margin-top: 370px;
 }
 
 .mgnT10 {
-  margin-top: 10px !important;
+  margin-top: 10px;
 }
 
 .mgnT14 {
-  margin-top: 14px !important;
+  margin-top: 14px;
 }
 
 .mgnT20 {
-  margin-top: 20px !important;
+  margin-top: 20px;
 }
 
 .mgnL15 {
-  margin-left: 15px !important;
+  margin-left: 15px;
 }
 
 .mgnLB {
@@ -343,7 +343,7 @@ textarea {
   border-left-style: none;
   border-top-color: #999;
   border-top-width: thin;
-  height: 1px !important;
+  height: 1px;
 }
 
 .contentLeft {
@@ -488,21 +488,21 @@ img.gplus_icon{
 }
 
 .footerContent a {
-  color: #CCC !important;
+  color: #CCC;
 }
 
 .footerContent p {
-  color: #CCC !important;
+  color: #CCC;
   margin: 3px;
 }
 
 .footerContent div {
-  color: #CCC !important;
+  color: #CCC;
   margin: 3px;
 }
 
 .footerContent h3 {
-  color: #CCC !important;
+  color: #CCC;
 }
 
 .bigGreenButton {
@@ -515,7 +515,7 @@ img.gplus_icon{
   -moz-border-radius: 6px;
   border-radius: 6px;
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.14, rgb(138, 169, 65)), color-stop(0.91, rgb(164, 212, 60)));
-  color: #FFFFFF !important;
+  color: #FFFFFF;
   font-family: 'Dosis';
   font-size: 14px;
   letter-spacing: 5px;
@@ -531,8 +531,8 @@ img.gplus_icon{
 }
 
 .bigGreenButton:hover {
-  background: #a3d43c !important;
-  color: #FFF !important;
+  background: #a3d43c;
+  color: #FFF;
 }
 
 .bigGreenButton--inline {
@@ -550,7 +550,7 @@ img.gplus_icon{
   -moz-border-radius: 6px;
   border-radius: 6px;
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.14, rgb(0, 110, 183)), color-stop(0.9, rgb(0, 136, 209)));
-  color: #FFFFFF !important;
+  color: #FFFFFF;
   font-family: 'Dosis';
   font-size: 14px;
   letter-spacing: 5px;
@@ -563,8 +563,8 @@ img.gplus_icon{
 }
 
 .bigBlueButton a:hover {
-  background: #0087d1 !important;
-  color: #FFF !important;
+  background: #0087d1;
+  color: #FFF;
 }
 
 .social {
@@ -597,11 +597,11 @@ img.gplus_icon{
 }
 
 .captchaInput {
-  width: 127px !important;
-  margin-top: 0px !important;
-  padding: 2px !important;
-  padding-top: 5px !important;
-  padding-bottom: 5px !important;
+  width: 127px;
+  margin-top: 0px;
+  padding: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   vertical-align: top;
 }
 
@@ -647,7 +647,7 @@ img.gplus_icon{
 
 
 .fb_iframe_widget{
-  margin:15px 10px 20px !important;
+  margin:15px 10px 20px;
 }
 
 .btn{ padding: 5px 40px;

@@ -4,7 +4,7 @@ var autoprefixer = require('gulp-autoprefixer');
 var cleanCSS = require('gulp-clean-css');
 
 gulp.task('styles', function() {
-  gulp.src('scss/**/*.scss')
+  gulp.src('scss/main.scss')
   .pipe(sass().on('error', sass.logError))
   .pipe(autoprefixer('last 2 versions'))
   .pipe(gulp.dest('./css/'));
@@ -18,5 +18,5 @@ gulp.task('minify-css', function() {
 
 gulp.task('default',function() {
   gulp.watch('scss/**/*.scss',['styles']);
-  gulp.watch('css/**/*.css',['minify-css']);
+  gulp.watch('css/main.css',['minify-css']);
 });
