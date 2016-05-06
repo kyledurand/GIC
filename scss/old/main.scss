@@ -27,17 +27,16 @@ a:visited {
 .bgGrey {
   background-color: #EEE;
   width: 100%;
-  min-width: 960px;
+  max-width: 960px;
 }
 
 .banner {
-  min-width: 960px;
   height: 3px;
-  background-color: #006db7;
+  background-color: color(blue, base);
 }
 
 .contents {
-  width: 960px;
+  max-width: $siteMaxWidth;
 }
 
 .contentBox {
@@ -69,8 +68,9 @@ a:visited {
 }
 
 header {
+  display: flex;
   box-shadow: 0px 0px 10px 0px #999;
-  height: 90px;
+  min-height: 90px;
 }
 
 textarea {
@@ -78,9 +78,7 @@ textarea {
 }
 
 .nav {
-  width: 745px;
-  height: 90px;
-  display: block;
+  flex: 1 1 auto;
   background-color: #006db7;
 }
 
@@ -215,7 +213,7 @@ textarea {
 }
 
 .contentLeft {
-  width: 605px;
+  max-width: 605px;
   float: left;
   text-align: left;
 }
@@ -294,7 +292,7 @@ p.ecofriendly {
   display: block;
   background: #EEE;
   margin: auto;
-  width: $siteMaxWidth;
+  max-width: $siteMaxWidth;
   padding: 0 (default(spacing) * 2) 0 224px;
 }
 

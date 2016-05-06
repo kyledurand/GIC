@@ -89,13 +89,20 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
   <div class="banner"></div>
   <div class="contents center">
     <header>
-      <div class="logo fl"><a href="/"><img src="img/logo.png" alt="GIC Medical Disposal - Premium Medical Disposal Service" width="205" height="90" border="0"></a></div>
-      <div class="nav fr">
+      <div class="logo">
+        <a href="/">
+          <img src="img/logo.png" alt="GIC Medical Disposal - Premium Medical Disposal Service" width="205" height="90" border="0">
+        </a>
+      </div>
+
+      <div class="nav">
         <div class="search">
          <div class="welcome fl">A BETTER MEDICAL WASTE DISPOSAL ALTERNATIVE</div>
          <div class="phone fr"><?= $to_phone; ?></div>
        </div>
+
        <div class="clear"></div>
+
        <ul id="nav">
          <li class="arrow"><a href="About-Us">ABOUT US</a>
            <ul class="aboutSub">

@@ -199,11 +199,9 @@
                     </div>
 
                     <div class="clear mgnB30"></div>
-                  </div><?php
-                  include 'rightInd.php';
-                  ?><?php
-                  include 'footer.php';
-                  ?>
+                  </div>
+                  <?php include 'rightInd.php'; ?>
+                  <?php include 'footer.php'; ?>
                 </div>
               </body>
               </html>
