@@ -48,7 +48,7 @@ a:visited {
   display: block;
   background: white;
   margin: auto;
-  width: 920px;
+  max-width: $siteMaxWidth;
   padding: 20px;
   margin-top: 5px;
   padding-bottom: 30px;
@@ -62,7 +62,7 @@ a:visited {
   display: block;
   background: white;
   margin: auto;
-  width: 920px;
+  max-width: $siteMaxWidth;
   padding: 20px;
   margin-top: 5px;
   padding-bottom: 10px;
@@ -289,19 +289,13 @@ p.ecofriendly {
 }
 
 .footerGrey {
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
   box-shadow: 0px 3px 10px 0px #999;
   padding: 0;
   display: block;
   background: #EEE;
   margin: auto;
-  width: 716px;
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 224px;
-  height: 20px;
+  width: $siteMaxWidth;
+  padding: 0 (default(spacing) * 2) 0 224px;
 }
 
 .footerBlue {
@@ -311,8 +305,7 @@ p.ecofriendly {
   padding: 0;
   display: block;
   background: #006db7;
-  margin-bottom: 40px;
-  width: 920px;
+  max-width: $siteMaxWidth;
   padding: 20px;
 }
 

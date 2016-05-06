@@ -12,7 +12,7 @@
         </div>
         <div class="clear"></div>
       </div>
-      <div class="footerBlue floatLeft">
+      <div class="footerBlue">
         <div class="footerContent floatLeft">
           <h3><strong itemprop="name">GIC Medical Disposal</strong></h3>
           <p itemprop="description">Medical Waste Disposal Services</p>
@@ -32,6 +32,7 @@
             <a href="sitemap.html">Sitemap</a>
           </p>
         </div>
+        <div class="clear"></div>
       </div>
     </div>
     <div class="clear"></div>
