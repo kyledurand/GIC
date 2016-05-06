@@ -5,7 +5,7 @@ $defaults-map: (
   line-height: 1.4rem,
   border: 1px solid color(gray, dark),
   border-radius: 3px,
-  box-shadow: 0px 3px 10px 0px color(slate, light),
+  box-shadow: 0px 4px 10px 0px rgba(color(black), 0.25),
 );
 
 @function default($property) {

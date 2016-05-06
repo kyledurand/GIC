@@ -43,7 +43,7 @@ input.parsley-error, textarea.parsley-error {
 
     <!-- this excludes the "email" and "realname" special fields from the body of the email you receive -->
     <input type="hidden" name="mail_options" value="Exclude=Email;Name" />
-    <table border="0">
+    <table border="0" width="100%">
       <tr>
         <td><input placeholder="email address" type="text" size="31" id="Email" name="Email" value="" data-trigger="change" data-required="true" data-type="email"></td>
       </tr>

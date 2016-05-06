@@ -1,1 +1,89 @@
-ol.bjqs-markers,ul.bjqs,ul.bjqs-controls{list-style:none;padding:0;margin:0}ul.bjqs{position:relative;overflow:hidden;display:none}li.bjqs-slide{position:absolute;display:none;font-family:Dosis,Arial,Helvetica,sans-serif;font-size:28px;color:#006db7;line-height:26px}ul.bjqs-controls{z-index:9999}ul.bjqs-controls.v-centered li.bjqs-next a{right:0}ul.bjqs-controls.v-centered li.bjqs-prev a{left:0}ol.bjqs-markers{width:100%}ol.bjqs-markers.h-centered{text-align:center}ol.bjqs-markers li{display:inline}ol.bjqs-markers li a{display:inline-block}p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0}ul.bjqs-controls.v-centered li a{position:absolute;display:block;padding:10px;background:#fff;color:#000;text-decoration:none}ol.bjqs-markers li a,ul.bjqs-controls.v-centered li a:hover{background:#000;color:#fff}ol.bjqs-markers li a{padding:5px 10px;margin:5px;text-decoration:none}ol.bjqs-markers li a:hover,ol.bjqs-markers li.active-marker a{background:#999}p.bjqs-caption{background:rgba(255,255,255,.5)}
+ol.bjqs-markers,
+ul.bjqs,
+ul.bjqs-controls {
+  list-style: none;
+  padding: 0;
+  margin: 0
+}
+
+ul.bjqs {
+  position: relative;
+  overflow: hidden;
+  display: none
+}
+
+li.bjqs-slide {
+  position: absolute;
+  display: none;
+  font-family: Dosis, Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  color: #006db7;
+  line-height: 26px
+}
+
+ul.bjqs-controls {
+  z-index: 9999
+}
+
+ul.bjqs-controls.v-centered li.bjqs-next a {
+  right: 0
+}
+
+ul.bjqs-controls.v-centered li.bjqs-prev a {
+  left: 0
+}
+
+ol.bjqs-markers {
+  width: 100%
+}
+
+ol.bjqs-markers.h-centered {
+  text-align: center
+}
+
+ol.bjqs-markers li {
+  display: inline
+}
+
+ol.bjqs-markers li a {
+  display: inline-block
+}
+
+p.bjqs-caption {
+  display: block;
+  width: 96%;
+  margin: 0;
+  padding: 2%;
+  position: absolute;
+  bottom: 0
+}
+
+ul.bjqs-controls.v-centered li a {
+  position: absolute;
+  display: block;
+  padding: 10px;
+  background: #fff;
+  color: #000;
+  text-decoration: none
+}
+
+ol.bjqs-markers li a,
+ul.bjqs-controls.v-centered li a:hover {
+  background: #000;
+  color: #fff
+}
+
+ol.bjqs-markers li a {
+  padding: 5px 10px;
+  margin: 5px;
+  text-decoration: none
+}
+
+ol.bjqs-markers li a:hover,
+ol.bjqs-markers li.active-marker a {
+  background: #999
+}
+
+p.bjqs-caption {
+  background: rgba(255, 255, 255, .5)
+}

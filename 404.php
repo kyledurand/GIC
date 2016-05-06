@@ -8,7 +8,8 @@
 
   <div class="contentBox mgnT14">
 
-    <div class="contentLeft"> <div style="width:420px; margin-bottom:-11px;"><img src="img/404.png" width="420" height="105" alt="Page Not Found"></div>
+    <div class="contentLeft">
+      <img src="img/404.png" alt="Page Not Found">
 
       <div class="lineRuleSolid"></div>
 
@@ -28,9 +29,9 @@
 
       var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),GOOG_FIXURL_SITE = location.host;
 
-    </script> 
+    </script>
 
-      <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script> 
+      <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
 
     </div>
 
@@ -40,11 +41,11 @@
 
       <div class="lineRuleSolid"></div>
 
-      
+
 
       <!--	TESTING		-->
 
-      
+
 
       <form action="assets/form.php" method="post">
 
@@ -54,15 +55,15 @@
 
         <input type="hidden" name="env_report" value="REMOTE_ADDR,HTTP_USER_AGENT">
 
-        
 
-        <!-- input type="hidden" name="redirect" value="http://my.domain.com/ok.htm" --> 
 
-        <!-- input type="hidden" name="error_redirect" value="http://my.domain.com/error.htm" --> 
+        <!-- input type="hidden" name="redirect" value="http://my.domain.com/ok.htm" -->
+
+        <!-- input type="hidden" name="error_redirect" value="http://my.domain.com/error.htm" -->
 
         <!-- input type="hidden" name="missing_fields_redirect" value="http://my.domain.com/missing.htm" -->
 
-        
+
 
         <table border="0">
 
@@ -104,15 +105,15 @@
 
       <div class="lineRuleSolid"></div>
 
-      <!--social plugins--> 
+      <!--social plugins-->
 
-      <a href="https://twitter.com/GICMD_info" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @GIC</a> 
+      <a href="https://twitter.com/GICMD_info" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @GIC</a>
 
       <script type="text/javascript"><!--
 
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
-// --></script> 
+// --></script>
 
       <script type="text/javascript"><!--
 
@@ -134,15 +135,15 @@
 
       <div style="margin-left:5px;" class="fb-like" data-href="http://www.facebook.com/pages/GIC-Medical-Disposal/174627482625368" data-send="false" data-layout="button_count" data-width="80px" data-show-faces="true"></div>
 
-      
+
 
       <!-- Google Plus - Place this tag where you want the +1 button to render -->
 
       <g:plusone size="small" href="http://www.gicmd.com"></g:plusone>
 
-      
 
-      <!-- Place this render call where appropriate --> 
+
+      <!-- Place this render call where appropriate -->
 
       <script type="text/javascript">
 
@@ -156,7 +157,7 @@
 
   })();
 
-</script> 
+</script>
 
       <!--end social plugins-->
 

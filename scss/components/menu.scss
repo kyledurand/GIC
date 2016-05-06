@@ -1,3 +1,15 @@
+$dropdownWidth: 215px;
+
+#nav {
+  display: flex;
+}
+
+#nav li {
+  flex: 1 1 auto;
+  position: relative;
+  padding: 0 default(spacing--small);
+}
+
 #nav, #nav ul {
   margin: 0;
   padding: 0;
@@ -15,40 +27,27 @@
   height: 40px;
 }
 
-#nav li {
-  float: left;
-  width: auto;
-  height: 30px;
-  margin-right: 26px;
-  margin-left: 26px;
-  height: 40px;
+#nav ul a {
+  height: auto;
 }
 
 #nav li ul {
   @include default(box-shadow);
   position: absolute;
   border-radius: 0 0 default(border-radius) default(border-radius);
-  width: 215px;
+  width: $dropdownWidth;
+  margin-left: calc(50% - #{$dropdownWidth} / 2);
   padding: default(spacing--small) / 2;
-  left: -999em;
   background-color: #ededed;
   z-index:1000;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  pointer-events: none;
 }
 
-.aboutSub {
-  margin-left: -66px !important;
-}
-
-.servicesSub {
-  margin-left: -54px !important;
-}
-
-.productsSub {
-  margin-left: -66px !important;
-}
-
-.contactSub {
-  margin-left: -80px !important;
+#nav li:hover ul, #nav li.sfhover ul  {
+  opacity: 1;
+  pointer-events: all;
 }
 
 .navCover {
@@ -57,19 +56,9 @@
 }
 
 #nav li ul li {
-  height: 15px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 5px;
-  margin-bottom: 0px;
+  margin: 5px 0 0;
   display: block;
-  width: 215px;
-  border-bottom-style: dashed;
-  border-right-style: none;
-  border-top-style: none;
-  border-left-style: none;
-  border-bottom-color: #999;
-  border-bottom-width: 1px;
+  border-bottom: 1px dashed #999;
   border-spacing: 10px;
   padding-bottom: 5px;
 }
@@ -82,16 +71,12 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   text-align: left;
-  width: 215px;
+  width: $dropdownWidth;
   color: #262626;
 }
 
 #nav li ul li a:hover {
   color: #94c400;
-}
-
-#nav li:hover ul, #nav li.sfhover ul  {
-  left: auto;
 }
 
 #content {
@@ -102,8 +87,13 @@
   z-index: 500;
 }
 
-.arrow:hover {
+.arrow {
   background-image: url(../img/menu.png);
+  background-position: center 150%;
   background-repeat: no-repeat;
+  transition: background-position 0.2s ease-in-out;
+}
+
+.arrow:hover {
   background-position: center bottom;
 }
