@@ -1,7 +1,7 @@
 <?php
-include("ref.php");
-ini_set('session.bug_compat_warn', 0);
-ini_set('session.bug_compat_42', 0);
+  include("ref.php");
+  ini_set('session.bug_compat_warn', 0);
+  ini_set('session.bug_compat_42', 0);
 ?>
 
 <head>
@@ -101,8 +101,8 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
            <ul class="aboutSub">
             <li><a href="Who-We-Serve">Who We Serve</a></li>
             <li><a href="faq">FAQ's</a></li>
-            <li><a href="Eco-Friendly">ECO Friendly</a></li>
-            <li><a href="Safety">Safety</a></li>
+            <li><a href="Eco-Friendly-Waste-Disposal">ECO Friendly</a></li>
+            <li><a href="safe-disposal-of-medical-waste">Safety</a></li>
             <li><a href="Testimonials">Testimonials</a></li>
             <li><a href="Compliance-Training-Program">Compliance Training Program</a></li>
             <li class="noBorder"><a href="Careers">Careers</a></li>
