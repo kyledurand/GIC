@@ -1,6 +1,6 @@
 <img class="footerDoctor" src="img/truck.png?v=2" width="181" height="132" alt="Your Medical Waste Disposal Specialists">
 </div>
-<footer>
+<footer class="contents center">
   <div class="bgGrey">
     <div class="contents center">
       <div class="footerGrey">
