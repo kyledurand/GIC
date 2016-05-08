@@ -18,7 +18,6 @@
           <p itemprop="description">Medical Waste Disposal Services</p>
           <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> <span itemprop="streetAddress">2nd Floor - 243 Queen St West, </span><span itemprop="addressLocality">Toronto</span>, <span itemprop="addressRegion">ON</span> M5V 1Z4 Canada</div>
           <p itemprop="telephone">Toll Free: <?= $to_phone; ?></p>
-          <? /* <p itemprop="telephone">Main: 416 - 800 - 2GIC (442)</p> */ ?>
           <p itemprop="faxNumber">Fax: 416 - 800 - 0373</p>
           <p itemprop="email">Email: <a href="mailto:<?= $to_email; ?>"><?= $to_email; ?></a></p>
         </div>
