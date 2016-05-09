@@ -166,44 +166,45 @@
 
             <div class="lineRuleSolid"></div>
 
-            <div class="fl ac small">
-              <p><a href="http://www.ec.gc.ca/?lang=En" target=
-                "_blank"><img alt="waste management toronto & mississauga" border="0" height="109"
-                src="img/badges2/environment-canada.jpg" width="94"></a></p>
-
-                <p>Environment Canada</p>
+            <div class="fl ac small compliance-image">
+              <p>
+                <a href="http://www.ec.gc.ca/?lang=En" target="_blank">
+                  <img alt="waste management toronto &amp; mississauga" border="0" src="img/badges2/environment-canada.jpg">
+                </a>
+              </p>
+              <p>Environment Canada</p>
               </div>
 
-              <div class="fl mgnLB ac small">
-                <p><a href="http://www.epa.gov/" target="_blank"><img alt=
-                  "environmental protection agency" border="0" height="109" src=
-                  "img/badges2/epa-logo.gif" width="98"></a></p>
-
-                  <p>US Environment Agency</p>
+              <div class="fl mgnLB ac small compliance-image">
+                <p>
+                  <a href="http://www.epa.gov/" target="_blank">
+                    <img alt="environmental protection agency" border="0" src="img/badges2/epa-logo.gif">
+                  </a>
+                </p>
+                <p>US Environment Agency</p>
                 </div>
 
-                <div class="fl mgnLB ac small">
-                  <p><a href="http://ec.europa.eu/environment/index_en.htm"
-                    target="_blank"><img alt="basel convention" border="0" height=
-                    "109" src="img/badges2/bc-unep.jpg" width="76"></a></p>
-
+                <div class="fl mgnLB ac small compliance-image">
+                  <p>
+                    <a href="http://ec.europa.eu/environment/index_en.htm" target="_blank">
+                      <img alt="basel convention" border="0" src="img/badges2/bc-unep.jpg">
+                    </a>
+                  </p>
                     <p>European Environment Protection</p>
                   </div>
 
-                  <div class="fl mgnLB ac small">
-                    <p><a href="http://ec.europa.eu/environment/index_en.htm"
-                      target="_blank"><img alt="Basel Convention" height="109" src=
-                      "img/badges2/basel.gif" width="158"></a></p>
-
+                  <div class="fl mgnLB ac small compliance-image">
+                    <p>
+                      <a href="http://ec.europa.eu/environment/index_en.htm" target="_blank">
+                        <img alt="Basel Convention" src="img/badges2/basel.gif"></a>
+                      </p>
                       <p>European Basel Convention</p>
                     </div>
 
                     <div class="clear mgnB30"></div>
-                  </div><?php
-                  include 'rightInd.php';
-                  ?><?php
-                  include 'footer.php';
-                  ?>
+                  </div>
+                  <?php include 'rightInd.php'; ?>
+                  <?php include 'footer.php'; ?>
                 </div>
               </body>
               </html>

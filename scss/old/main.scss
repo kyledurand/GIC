@@ -5,6 +5,8 @@
   Author: Kyle Durand
 */
 
+$contactFormWidth: 274px;
+
 ul {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
@@ -27,17 +29,16 @@ a:visited {
 .bgGrey {
   background-color: #EEE;
   width: 100%;
-  min-width: 960px;
+  max-width: 960px;
 }
 
 .banner {
-  min-width: 960px;
   height: 3px;
-  background-color: #006db7;
+  background-color: color(blue, base);
 }
 
 .contents {
-  width: 960px;
+  max-width: $siteMaxWidth;
 }
 
 .contentBox {
@@ -69,8 +70,9 @@ a:visited {
 }
 
 header {
+  display: flex;
   box-shadow: 0px 0px 10px 0px #999;
-  height: 90px;
+  min-height: 90px;
 }
 
 textarea {
@@ -78,9 +80,7 @@ textarea {
 }
 
 .nav {
-  width: 745px;
-  height: 90px;
-  display: block;
+  flex: 1 1 auto;
   background-color: #006db7;
 }
 
@@ -137,7 +137,7 @@ textarea {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
   text-align: right;
-  width: 960px;
+  max-width: 960px;
   margin-top: -3px;
   margin-bottom: 3px;
   height: 14px;
@@ -205,25 +205,21 @@ textarea {
   margin-bottom: 5px;
   display: block;
   width: auto;
-  border-top-style: solid;
-  border-right-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
-  border-top-color: #999;
-  border-top-width: thin;
+  border-top: thin solid #999;
   height: 1px;
 }
 
 .contentLeft {
-  width: 605px;
-  float: left;
-  text-align: left;
+  max-width: calc(100% - #{$contactFormWidth + 6});
+  display: inline-block;
+  vertical-align: top;
 }
 
 .contentRight {
-  width: 280px;
   position: relative;
-  float: right;
+  width: $contactFormWidth;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .contentRight input,
@@ -259,7 +255,12 @@ textarea {
 }
 
 .bucket {
-  width: 290px;
+  max-width: 50%;
+}
+
+.compliance-image {
+  max-width: calc(25% - #{default(spacing--small) * 4});
+  padding: default(spacing--small);
 }
 
 p.safe {
@@ -294,7 +295,7 @@ p.ecofriendly {
   display: block;
   background: #EEE;
   margin: auto;
-  width: $siteMaxWidth;
+  max-width: $siteMaxWidth;
   padding: 0 (default(spacing) * 2) 0 224px;
 }
 
@@ -320,7 +321,7 @@ p.ecofriendly {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   color: #CCC;
-  margin-top: 10px;
+  margin-top: default(spacing) * 5;
   position: relative;
 }
 
@@ -390,7 +391,7 @@ img.gplus_icon{
   padding: 2px;
   text-decoration: none;
   display: block;
-  width: 270px;
+  max-width: 270px;
   text-transform: uppercase;
   margin-left: 4px;
 }
