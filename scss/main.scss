@@ -1,6 +1,7 @@
 // Globals
 @import 'base/layout';
 @import 'base/variables';
+@import 'base/breakpoints';
 
 // Foundation
 @import 'foundation/colors';
@@ -12,7 +13,7 @@
 @import 'components/slider';
 
 // Non refactored code
-@import 'old/main.scss';
+@import 'old/general-layout.scss';
 @import 'old/bjqs.scss';
 @import 'old/slides.scss';
 @import 'old/testimonials.scss';
