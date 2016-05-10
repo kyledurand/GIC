@@ -4,7 +4,7 @@
   <div class="bgGrey">
     <div class="contents center">
       <div class="footerGrey">
-        <div class="floatLeft">
+        <div class="floatLeft media__helpers--hide-before-large">
           <h3> MEDICAL WASTE DISPOSAL SPECIALISTS</h3>
         </div>
         <div class="floatRight">

@@ -56,6 +56,7 @@ a:visited {
 }
 
 .contentBoxHome {
+  text-align: center;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   box-shadow: 0px 3px 10px 0px #999;
@@ -212,13 +213,20 @@ textarea {
 .contentLeft {
   max-width: calc(100% - #{$contactFormWidth + 6});
   display: inline-block;
+  text-align: left;
   vertical-align: top;
+  padding-right: default(spacing) * 2;
+
+  @include before(medium) {
+    max-width: 100%;
+  }
 }
 
 .contentRight {
   position: relative;
   width: $contactFormWidth;
   display: inline-block;
+  text-align: left;
   vertical-align: top;
 }
 
@@ -256,11 +264,29 @@ textarea {
 
 .bucket {
   max-width: 50%;
+
+  @include before(medium) {
+    max-width: 100%;
+  }
+
+  p {
+    min-height: 44px;
+  }
+}
+
+.compliances {
+  text-align: center;
 }
 
 .compliance-image {
-  max-width: calc(25% - #{default(spacing--small) * 4});
+  display: inline-block;
+  vertical-align: top;
+  max-width: calc(25% - #{default(spacing--small) - 3px});
   padding: default(spacing--small);
+
+  @include before(small) {
+    max-width: calc(50% - #{default(spacing--small) - 3px});
+  }
 }
 
 p.safe {
