@@ -22,7 +22,7 @@
       <p>
         When you employ GICMD&rsquo;s services, we will take full  responsibility of properly handling and disposing your medical wastes and other  hazardous wastes.
       </p>
-      <h2 class="quote">
+      <h2>
         We Equip You With The Right Tools For Safe Disposal Of Medical Waste
       </h2>
       <p>

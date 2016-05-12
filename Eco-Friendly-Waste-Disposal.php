@@ -20,7 +20,7 @@
         Our state-of-the-art eco friendly waste disposal systems meet and exceed government regulations.  We are Mother Nature's ally against non-hazardous and hazardous medical wastes! Second only to our clients, the environment is of utmost concern to us.
       </p>
 
-      <h2 class="quote">
+      <h2>
         Our state-of-the-art eco friendly waste disposal systems meet and exceed government regulations.  We are Mother Nature's ally against non-hazardous and hazardous medical wastes! Second only to our clients, the environment is of utmost concern to us.
       </h2>
 
