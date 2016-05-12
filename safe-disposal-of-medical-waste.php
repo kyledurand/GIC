@@ -73,9 +73,10 @@
         </li>
       </ul>
       <p>
+        <strong>
         Experience the GICMD advantage of safe medical waste disposal when you call us at
-        <strong><?= $to_phone; ?></strong>
-        (toll free) today.
+        <?= $to_phone; ?> today.
+        </strong>
       </p>
       <p>
         Collaborate with our team of specialist to build the most  convenient package deal for your medical waste disposal.
