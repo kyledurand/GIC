@@ -228,6 +228,10 @@ textarea {
   display: inline-block;
   text-align: left;
   vertical-align: top;
+
+  @include before(medium) {
+    width: 100%;
+  }
 }
 
 .contentRight input,
