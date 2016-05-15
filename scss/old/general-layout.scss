@@ -69,6 +69,11 @@ a:visited {
   @include before(medium) {
     padding-bottom: default(spacing) * 4;
   }
+
+  h1,
+  h2 {
+    margin: default(spacing--large) 0;
+  }
 }
 
 header {
@@ -362,6 +367,10 @@ p.ecofriendly {
   color: #CCC;
   margin-top: default(spacing) * 5;
   position: relative;
+
+  @include before(small) {
+    margin-top: 0;
+  }
 }
 
 .floatRight{
