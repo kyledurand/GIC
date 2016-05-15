@@ -37,7 +37,7 @@
     <div class="clear"></div>
   </div>
 </footer>
-
+<script type="text/javascript" src="js/app.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 <script type="text/javascript" src="js/vendor/slides.min.jquery.js"></script>
 <script src="js/vendor/bjqs-1.3.min.js"></script>
