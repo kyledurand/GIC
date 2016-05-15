@@ -93,63 +93,16 @@ input.parsley-error, textarea.parsley-error {
 
 
 <div class="contact">
-
-
-
-
-
-
-
-  <script type="text/javascript" src="js/parsley.js"></script>
-
   <form id="form1" name="form1" class="form" data-validate="parsley" method="post" action="formmail">
-
     <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER" />
-
     <input type="hidden" name="csvfile" value="formdata.csv" />
-
     <input type="hidden" name="csvcolumns" value="Email,Name,Phone,Message" />
-
-	<input type="hidden" name="recipients" value="service@gicmd.ca" /> 
-    
+    <input type="hidden" name="recipients" value="service@gicmd.ca" /> 
     <input type="hidden" name="lead_source" value="<?= $source; ?>" />
-
-    
-
     <input type="hidden" name="good_url" value="Thank-You.php" />
-
     <input type="hidden" name="bad_url" value="Sorry.php" />
-
-    
-
-    <!-- STEP 3: Specify required fields in the 'required' value - or leave unchanged.
-
-            NOTE: DO NOT put your email address and name here.
-
-            "Your email address" and "Your name" are error messages for your users to see,
-
-            not placeholders for you to replace.
-
-    --> 
-
-    <!-- STEP 4: Put your subject line in the 'subject' value. -->
-
     <input type="hidden" name="subject" value="Free Quote Request" />
-
-    
-
-    <!-- ALL DONE! Visit our site for HOW TO guides and more complex features. --> 
-
-    
-
-    <!-- this derives (creates) "email" and "realname" special fields from the input fields -->
-
     <input type="hidden" name="derive_fields" value="imgverify=recaptcha_response_field,email=Email,realname=Name" />
-
-    
-
-    <!-- this excludes the "email" and "realname" special fields from the body of the email you receive -->
-
     <input type="hidden" name="mail_options" value="Exclude=Email;Name" />
 
     <table border="0">

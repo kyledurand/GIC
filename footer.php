@@ -37,38 +37,39 @@
     <div class="clear"></div>
   </div>
 </footer>
-    <link rel="stylesheet" href="css/bjqs.css">
-    <script src="js/bjqs-1.3.min.js"></script>
-    <script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-    <script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-    <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $("#various1").fancybox({
-                'titlePosition'		: 'inside',
-                'transitionIn'		: 'none',
-                'transitionOut'		: 'none'
-            });
-        });
-    </script>
-
-    <script type="text/javascript" src="//cdn.callrail.com/companies/313452552/464b554297ae4ce48bea/12/swap.js"></script>
-
-    <!-- Google Code for Remarketing Tag -->
-    <script type="text/javascript">
-      /* <![CDATA[ */
-      var google_conversion_id = 974179940;
-      var google_custom_params = window.google_tag_params;
-      var google_remarketing_only = true;
-      /* ]]> */
-    </script>
-    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
-    <!-- Google Code for Remarketing Tag -->
-    <noscript>
-      <div style="display:inline;">
-        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/974179940/?value=0&amp;guid=ON&amp;script=0"/>
-      </div>
-    </noscript>
-
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/vendor/slides.min.jquery.js"></script>
+<script src="js/vendor/bjqs-1.3.min.js"></script>
+<script type="text/javascript" src="js/vendor/parsley.js"></script>
+<script>
+ $(function(){
+  $('#slides').slides({
+   preload: true,
+   preloadImage: 'img/loading.gif',
+   effect: 'fade',
+   crossfade: true,
+   play: 4500,
+   pause: 2500,
+   hoverPause: true
+ });
+});
+</script>
+<script type="text/javascript" src="//cdn.callrail.com/companies/313452552/464b554297ae4ce48bea/12/swap.js"></script>
+<!-- Google Code for Remarketing Tag -->
+<script type="text/javascript">
+  /* <![CDATA[ */
+  var google_conversion_id = 974179940;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+<!-- Google Code for Remarketing Tag -->
+<noscript>
+  <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/974179940/?value=0&amp;guid=ON&amp;script=0"/>
+  </div>
+</noscript>
 </body>
 </html>
