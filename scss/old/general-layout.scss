@@ -56,18 +56,19 @@ a:visited {
 }
 
 .contentBoxHome {
-  text-align: center;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
   box-shadow: 0px 3px 10px 0px #999;
-  padding: 0;
   display: block;
   background: white;
   margin: auto;
-  max-width: $siteMaxWidth;
-  padding: 20px;
   margin-top: 5px;
+  max-width: $siteMaxWidth;
+  padding: 0;
+  padding: 20px;
   padding-bottom: 10px;
+
+  @include before(medium) {
+    padding-bottom: default(spacing) * 4;
+  }
 }
 
 header {
@@ -327,6 +328,14 @@ p.ecofriendly {
   margin: auto;
   max-width: $siteMaxWidth;
   padding: 0 (default(spacing) * 2) 0 224px;
+
+  h3 {
+    margin: default(spacing) 0;
+  }
+
+  @include before(small) {
+    padding: default(spacing) * 10 default(spacing) * 2 0;
+  }
 }
 
 .footerBlue {

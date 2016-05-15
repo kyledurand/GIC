@@ -36,7 +36,7 @@ $dropdownWidth: 215px;
   @include default(box-shadow);
   position: absolute;
   border-radius: 0 0 default(border-radius) default(border-radius);
-  max-width: $dropdownWidth;
+  width: $dropdownWidth;
   margin-left: calc(50% - #{$dropdownWidth} / 2);
   padding: default(spacing--small) / 2;
   background-color: #ededed;
