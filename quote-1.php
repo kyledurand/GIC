@@ -48,7 +48,6 @@ input.parsley-error, textarea.parsley-error {
         <p>You may also choose to use our contact form. Simply fill in the fields below and one of GIC Medical Disposal&rsquo;s experts will respond to you in a timely fashion. Please ensure that all necessary fields are completed to help us contact you promptly. Your information is private and is only used as a point of contact.        </p>
 
         <div class="contact">
-          <script type="text/javascript" src="js/parsley.js"></script>
           <form id="form1" name="form1" data-validate="parsley" method="post" action="formmail">
             <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER" />
             <input type="hidden" name="csvfile" value="formdata.csv" />

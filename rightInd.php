@@ -13,7 +13,6 @@
 <div class="contentRight">
   <h3>Contact Us!</h3>
   <div class="lineRuleSolid"></div>
-  <script type="text/javascript" src="js/parsley.js"></script>
   <form id="form1" data-validate="parsley" method="post" name="form1">
     <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER" />
     <input type="hidden" name="csvfile" value="formdata.csv" />

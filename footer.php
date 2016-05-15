@@ -38,7 +38,23 @@
   </div>
 </footer>
 
-<script src="js/bjqs-1.3.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/vendor/slides.min.jquery.js"></script>
+<script src="js/vendor/bjqs-1.3.min.js"></script>
+<script type="text/javascript" src="js/vendor/parsley.js"></script>
+<script>
+ $(function(){
+  $('#slides').slides({
+   preload: true,
+   preloadImage: 'img/loading.gif',
+   effect: 'fade',
+   crossfade: true,
+   play: 4500,
+   pause: 2500,
+   hoverPause: true
+ });
+});
+</script>
 <script type="text/javascript" src="//cdn.callrail.com/companies/313452552/464b554297ae4ce48bea/12/swap.js"></script>
 <!-- Google Code for Remarketing Tag -->
 <script type="text/javascript">
