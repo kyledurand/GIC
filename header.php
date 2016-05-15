@@ -32,9 +32,8 @@
   <link rel="icon" type="image/png" href="favicon.png" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/slides.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
   <script src="js/slides.min.jquery.js"></script>
   <script>
    $(function(){
