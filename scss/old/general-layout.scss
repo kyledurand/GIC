@@ -352,6 +352,10 @@ p.ecofriendly {
   background: #006db7;
   max-width: $siteMaxWidth;
   padding: 20px;
+
+  * {
+    color: color(gray, dark);
+  }
 }
 
 .footerDoctor {
@@ -364,7 +368,6 @@ p.ecofriendly {
   width: auto;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
-  color: #CCC;
   margin-top: default(spacing) * 5;
   position: relative;
 
@@ -383,22 +386,12 @@ img.gplus_icon{
   position:absolute;
 }
 
-.footerContent a {
-  color: #CCC;
-}
-
 .footerContent p {
-  color: #CCC;
   margin: 3px;
 }
 
 .footerContent div {
-  color: #CCC;
   margin: 3px;
-}
-
-.footerContent h3 {
-  color: #CCC;
 }
 
 .bigGreenButton {

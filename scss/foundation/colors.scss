@@ -24,7 +24,7 @@ $colors-map: (
   gray: (
     light: #f9f9f9,
     base: #f6f6f6,
-    dark: #e9e9e9,
+    dark: #d8d8d8,
   ),
 
   slate: (
@@ -38,6 +38,6 @@ $colors-map: (
   @return $fetched-color;
 }
 
-@mixin color($hue, $value) {
+@mixin color($hue, $value: base) {
   color: color($hue);
 }
