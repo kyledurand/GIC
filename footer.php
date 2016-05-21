@@ -1,4 +1,4 @@
-<img class="footerDoctor" src="img/truck.png?v=2" width="181" height="132" alt="Your Medical Waste Disposal Specialists">
+<img class="footerTruck" src="img/truck.png?v=2" alt="Your Medical Waste Disposal Specialists">
 </div>
 <footer class="contents center">
   <div class="bgGrey">
@@ -8,7 +8,7 @@
           <h3> MEDICAL WASTE DISPOSAL SPECIALISTS</h3>
         </div>
         <div class="floatRight">
-          <h3>NEED HELP? <?= $to_phone; ?></h3>
+          <h3><span class="media__helpers--hide-before-large">NEED HELP? </span><?= $to_phone; ?></h3>
         </div>
         <div class="clear"></div>
       </div>
