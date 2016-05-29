@@ -1,3 +1,3 @@
 $(document).ready(() => {
-  console.log('rolo');
+  // Execute scripts here
 });

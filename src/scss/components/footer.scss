@@ -1,6 +1,7 @@
 $truck-width--large: 180px;
 $truck-width--medium: 160px;
-$truck-width--small: 100px;
+$truck-width--small: 126px;
+$truck-top--small: -24px;
 
 .footerGrey {
   box-shadow: 0px 3px 10px 0px #999;
@@ -47,6 +48,7 @@ $truck-width--small: 100px;
 
   @include before(small) {
     max-width: $truck-width--small;
+    margin-top: $truck-top--small;
   }
 }
 
