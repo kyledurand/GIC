@@ -1,7 +1,8 @@
 $truck-width--large: 180px;
 $truck-width--medium: 160px;
 $truck-width--small: 126px;
-$truck-top--small: -24px;
+
+$truck-top-nudge: -24px;
 
 .footerGrey {
   box-shadow: 0px 3px 10px 0px #999;
@@ -48,7 +49,7 @@ $truck-top--small: -24px;
 
   @include before(small) {
     max-width: $truck-width--small;
-    margin-top: $truck-top--small;
+    margin-top: $truck-top-nudge;
   }
 }
 
@@ -58,6 +59,10 @@ $truck-top--small: -24px;
   font-size: 12px;
   margin-top: default(spacing) * 5;
   position: relative;
+
+  @include before(medium) {
+    max-width: 50%;
+  }
 
   @include before(small) {
     margin-top: 0;
