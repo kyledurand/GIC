@@ -55,4 +55,4 @@ With GICMD&rsquo;s help, such wastes will be correctly identified,  segregated, 
 
   <?php include 'right.php'; ?>
 
-  <?php include 'footer.php'; ?>
+  <?php include 'components/footer.php'; ?>

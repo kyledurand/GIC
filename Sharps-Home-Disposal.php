@@ -39,4 +39,4 @@ Start a proper waste disposal management of simple sharps at  your home using th
     <div class="clear"></div>
   </div>
   <?php include 'right.php'; ?>
-  <?php include 'footer.php'; ?>
+  <?php include 'components/footer.php'; ?>

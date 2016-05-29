@@ -173,4 +173,4 @@
 
   </div>
 
-  <?php include 'footer.php'; ?>
+  <?php include 'components/footer.php'; ?>

@@ -125,4 +125,4 @@ input.parsley-error, textarea.parsley-error {
 
   <?php include 'rightAlt.php'; ?>
 
-  <?php include 'footer.php'; ?>
+  <?php include 'components/footer.php'; ?>

@@ -57,4 +57,4 @@ Check if your facility use and generate any of the  following:</p>
     <div class="clear"></div>
   </div>
   <?php include 'right.php'; ?>
-  <?php include 'footer.php'; ?>
+  <?php include 'components/footer.php'; ?>

@@ -58,4 +58,4 @@
     <div class="clear"></div>
   </div>
   <?php include 'right.php'; ?>
-  <?php include 'footer.php'; ?>
+  <?php include 'components/footer.php'; ?>

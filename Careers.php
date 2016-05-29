@@ -44,4 +44,4 @@ input.parsley-error, textarea.parsley-error {
     <div class="clear"></div>
   </div>
   <?php include 'rightAlt.php'; ?>
-  <?php include 'footer.php'; ?>
+  <?php include 'components/footer.php'; ?>

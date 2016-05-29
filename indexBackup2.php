@@ -87,5 +87,5 @@
       </div>
       <div class="clear mgnB60"></div>
     </div>
-    <?php include 'rightInd.php'; ?>
-  <?php include 'footer.php'; ?>
+    <?php include 'components/rightInd.php'; ?>
+  <?php include 'components/footer.php'; ?>

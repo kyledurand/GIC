@@ -123,4 +123,4 @@ We&rsquo;ve compiled the questions often asked by our clients. If  you don&rsquo
     <div class="clear"></div>
   </div>
   <?php include 'right.php'; ?>
-  <?php include 'footer.php'; ?>
+  <?php include 'components/footer.php'; ?>

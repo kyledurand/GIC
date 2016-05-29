@@ -43,4 +43,4 @@ GICMD&rsquo;s biomedical waste bags are  resilient and multi-purpose. Below are 
     <div class="clear"></div>
   </div>
   <?php include 'right.php'; ?>
-  <?php include 'footer.php'; ?>
+  <?php include 'components/footer.php'; ?>
