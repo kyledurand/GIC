@@ -57,6 +57,6 @@ $keywords = "RX Waste Disposal, Chemical Disposal Services Toronto";
 
   </div>
 
-  <?php include 'right.php'; ?>
+  <?php include 'components/right.php'; ?>
 
   <?php include 'components/footer.php'; ?>

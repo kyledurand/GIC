@@ -79,158 +79,158 @@ Searching 11944 files for "footer.php'"
   177  
 
 /Users/kyledurand/code/personal/GIC/About-Us.php:
-   60    <?php include 'right.php'; ?>
+   60    <?php include 'components/right.php'; ?>
    61  
    62:   <?php include 'footer.php'; ?>
    63  
 
 /Users/kyledurand/code/personal/GIC/Biohazard-Waste-Bag-Disposal.php:
    57    </div>
-   58    <?php include 'right.php'; ?>
+   58    <?php include 'components/right.php'; ?>
    59:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Biohazard-Waste-Disposal.php:
    68    </div>
-   69    <?php include 'right.php'; ?>
+   69    <?php include 'components/right.php'; ?>
    70:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Biohazardous-Waste-Bags-Liners.php:
    58    </div>
-   59    <?php include 'right.php'; ?>
+   59    <?php include 'components/right.php'; ?>
    60:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Biomedical-Waste-Bags.php:
    44    </div>
-   45    <?php include 'right.php'; ?>
+   45    <?php include 'components/right.php'; ?>
    46:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Biomedical-Waste-Containers.php:
    46    </div>
-   47    <?php include 'right.php'; ?>
+   47    <?php include 'components/right.php'; ?>
    48:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Business-Retailers.php:
-   47    <?php include 'right.php'; ?>
+   47    <?php include 'components/right.php'; ?>
    48  
    49:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Carbon-Footprint.php:
    32    </div>
-   33    <?php include 'right.php'; ?>
+   33    <?php include 'components/right.php'; ?>
    34:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Careers(2014-03-03).php:
    49    </div>
-   50    <?php include 'rightAlt.php'; ?>
+   50    <?php include 'components/rightAlt.php'; ?>
    51:   <?php include 'footer.php'; ?>
    52  
 
 /Users/kyledurand/code/personal/GIC/Careers.php:
    45    </div>
-   46    <?php include 'rightAlt.php'; ?>
+   46    <?php include 'components/rightAlt.php'; ?>
    47:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Chemical-Lab-Packing.php:
    65    </div>
-   66    <?php include 'right.php'; ?>
+   66    <?php include 'components/right.php'; ?>
    67:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Chemical-Waste-Disposal.php:
    58    </div>
-   59    <?php include 'right.php'; ?>
+   59    <?php include 'components/right.php'; ?>
    60:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Contact-Us.php:
    29    </div>
-   30    <?php include 'rightAlt.php'; ?>
+   30    <?php include 'components/rightAlt.php'; ?>
    31:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Container-Replacement.php:
    48    </div>
-   49    <?php include 'right.php'; ?>
+   49    <?php include 'components/right.php'; ?>
    50:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Dental-Offices.php:
    40    </div>
-   41    <?php include 'right.php'; ?>
+   41    <?php include 'components/right.php'; ?>
    42:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Eco-Friendly-Waste-Disposal.php:
    77    </div>
-   78    <?php include 'right.php'; ?>
+   78    <?php include 'components/right.php'; ?>
    79:   <?php include 'footer.php'; ?>
    80  
 
 /Users/kyledurand/code/personal/GIC/Equipment-Infection-Control.php:
    46    </div>
-   47    <?php include 'right.php'; ?>
+   47    <?php include 'components/right.php'; ?>
    48:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/faq.php:
   124    </div>
-  125    <?php include 'right.php'; ?>
+  125    <?php include 'components/right.php'; ?>
   126:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/gic-quote.php:
   116        </div>
-  117        <?php include 'rightAlt.php'; ?>
+  117        <?php include 'components/rightAlt.php'; ?>
   118:       <?php include 'footer.php'; ?>
   119  
 
 /Users/kyledurand/code/personal/GIC/Global.php:
    42    </div>
-   43    <?php include 'right.php'; ?>
+   43    <?php include 'components/right.php'; ?>
    44:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Hazardous-Special-Waste-Management.php:
    57    </div>
-   58    <?php include 'right.php'; ?>
+   58    <?php include 'components/right.php'; ?>
    59:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/hazardous-waste-disposal-1.php:
   157  
-  158  <?php include 'right.php'; ?>
+  158  <?php include 'components/right.php'; ?>
   159: <?php include 'footer.php'; ?>
   160  
 
 /Users/kyledurand/code/personal/GIC/hazardous-waste-disposal-2.php:
   189  
-  190  <?php include 'right.php'; ?>
+  190  <?php include 'components/right.php'; ?>
   191: <?php include 'footer.php'; ?>
   192  
 
 /Users/kyledurand/code/personal/GIC/Hazardous-Waste-Management.php:
    70    </div>
-   71    <?php include 'right.php'; ?>
+   71    <?php include 'components/right.php'; ?>
    72:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Hazardous-Waste-Recycling.php:
    41    </div>
-   42    <?php include 'right.php'; ?>
+   42    <?php include 'components/right.php'; ?>
    43:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Healthcare-Professional-Offices.php:
-   50    <?php include 'right.php'; ?>
+   50    <?php include 'components/right.php'; ?>
    51  
    52:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Hospital-Integrated-Waste.php:
-   61    <?php include 'right.php'; ?>
+   61    <?php include 'components/right.php'; ?>
    62  
    63:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Hospital-Services.php:
    41    </div>
-   42    <?php include 'right.php'; ?>
+   42    <?php include 'components/right.php'; ?>
    43:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Hospital-Sharps-Management.php:
    41    </div>
-   42    <?php include 'right.php'; ?>
+   42    <?php include 'components/right.php'; ?>
    43:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Hospitals-and-Healthcare-Systems.php:
-   60    <?php include 'right.php'; ?>
+   60    <?php include 'components/right.php'; ?>
    61  
    62:   <?php include 'footer.php'; ?>
 
@@ -243,7 +243,7 @@ Searching 11944 files for "footer.php'"
 
 /Users/kyledurand/code/personal/GIC/indexBackup.php:
    55    </div>
-   56    <?php include 'right.php'; ?>
+   56    <?php include 'components/right.php'; ?>
    57:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/indexBackup2.php:
@@ -253,69 +253,69 @@ Searching 11944 files for "footer.php'"
 
 /Users/kyledurand/code/personal/GIC/Liquid-Waste-Environmental.php:
    46    </div>
-   47    <?php include 'right.php'; ?>
+   47    <?php include 'components/right.php'; ?>
    48:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Mailback-System-Options.php:
    32    </div>
-   33    <?php include 'right.php'; ?>
+   33    <?php include 'components/right.php'; ?>
    34:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Manufacturers-and-Distributors.php:
-   56    <?php include 'right.php'; ?>
+   56    <?php include 'components/right.php'; ?>
    57  
    58:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Medical-Practices.php:
    48    </div>
-   49    <?php include 'right.php'; ?>
+   49    <?php include 'components/right.php'; ?>
    50:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/medical-waste-1.php:
   203  
-  204  <?php include 'right.php'; ?>
+  204  <?php include 'components/right.php'; ?>
   205: <?php include 'footer.php'; ?>
   206  
 
 /Users/kyledurand/code/personal/GIC/medical-waste-1a.php:
   189  
-  190  <?php include 'right.php'; ?>
+  190  <?php include 'components/right.php'; ?>
   191: <?php include 'footer.php'; ?>
   192  
 
 /Users/kyledurand/code/personal/GIC/medical-waste-compliance-training.php:
    66  
-   67    <?php include 'right.php'; ?>
+   67    <?php include 'components/right.php'; ?>
    68:   <?php include 'footer.php'; ?>
    69  
 
 /Users/kyledurand/code/personal/GIC/Medical-Waste-FAQ.php:
    86    </div>
-   87    <?php include 'right.php'; ?>
+   87    <?php include 'components/right.php'; ?>
    88:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Other-Waste-Containers.php:
    60    </div>
-   61    <?php include 'right.php'; ?>
+   61    <?php include 'components/right.php'; ?>
    62:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Pharmaceutical-Manufacturers.php:
    40    </div>
-   41    <?php include 'right.php'; ?>
+   41    <?php include 'components/right.php'; ?>
    42:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Pharmaceutical-Recall.php:
-   76    <?php include 'right.php'; ?>
+   76    <?php include 'components/right.php'; ?>
    77  
    78:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Pharmaceuticals-Disposal.php:
    59    </div>
-   60    <?php include 'right.php'; ?>
+   60    <?php include 'components/right.php'; ?>
    61:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Products.php:
-   18    include 'right.php';
+   18    include 'components/right.php';
    19    ?>  <?php
    20:   include 'footer.php';
    21    ?>
@@ -323,56 +323,56 @@ Searching 11944 files for "footer.php'"
 
 /Users/kyledurand/code/personal/GIC/quote-1.php:
   116        </div>
-  117        <?php include 'rightAlt.php'; ?>
+  117        <?php include 'components/rightAlt.php'; ?>
   118:       <?php include 'footer.php'; ?>
   119  
 
 /Users/kyledurand/code/personal/GIC/quote-2.php:
   116        </div>
-  117        <?php include 'rightAlt.php'; ?>
+  117        <?php include 'components/rightAlt.php'; ?>
   118:       <?php include 'footer.php'; ?>
   119  
 
 /Users/kyledurand/code/personal/GIC/Request-Quote.php:
-  126    <?php include 'rightAlt.php'; ?>
+  126    <?php include 'components/rightAlt.php'; ?>
   127  
   128:   <?php include 'footer.php'; ?>
   129  
 
 /Users/kyledurand/code/personal/GIC/Retail-Pharmacies.php:
-   55    <?php include 'right.php'; ?>
+   55    <?php include 'components/right.php'; ?>
    56  
    57:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/safe-disposal-of-medical-waste.php:
    87    </div>
-   88    <?php include 'right.php'; ?>
+   88    <?php include 'components/right.php'; ?>
    89:   <?php include 'footer.php'; ?>
    90  
 
 /Users/kyledurand/code/personal/GIC/Services.php:
-   16  include 'right.php';
+   16  include 'components/right.php';
    17  ?>  <?php
    18: include 'footer.php';
    19  ?>
 
 /Users/kyledurand/code/personal/GIC/Sharps-Containers.php:
    40    </div>
-   41    <?php include 'right.php'; ?>
+   41    <?php include 'components/right.php'; ?>
    42:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Sharps-Disposal.php:
    51    </div>
-   52    <?php include 'right.php'; ?>
+   52    <?php include 'components/right.php'; ?>
    53:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Sharps-Home-Disposal.php:
    40    </div>
-   41    <?php include 'right.php'; ?>
+   41    <?php include 'components/right.php'; ?>
    42:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Sorry.php:
-   36    <?php include 'right.php'; ?>
+   36    <?php include 'components/right.php'; ?>
    37  
    38:   <?php include 'footer.php'; ?>
 
@@ -384,42 +384,42 @@ Searching 11944 files for "footer.php'"
 
 /Users/kyledurand/code/personal/GIC/Sustainability-Services.php:
    43    </div>
-   44    <?php include 'right.php'; ?>
+   44    <?php include 'components/right.php'; ?>
    45:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Terms.php:
-   55    <?php include 'right.php'; ?>
+   55    <?php include 'components/right.php'; ?>
    56  
    57:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Testimonials.php:
    70    </div>
-   71    <?php include 'right.php'; ?>
+   71    <?php include 'components/right.php'; ?>
    72:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Thank-You.php:
-   57    <?php include 'right.php'; ?>
+   57    <?php include 'components/right.php'; ?>
    58  
    59:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Veterinary-Clinics.php:
    37    </div>
-   38    <?php include 'right.php'; ?>
+   38    <?php include 'components/right.php'; ?>
    39:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/waste-disposal-industries.php:
-   84    <?php include 'right.php'; ?>
+   84    <?php include 'components/right.php'; ?>
    85  
    86:   <?php include 'footer.php'; ?>
    87  
 
 /Users/kyledurand/code/personal/GIC/Waste-Disposal-Product-Solutions.php:
    43    </div>
-   44    <?php include 'right.php'; ?>
+   44    <?php include 'components/right.php'; ?>
    45:   <?php include 'footer.php'; ?>
 
 /Users/kyledurand/code/personal/GIC/Who-We-Serve.php:
-   84    <?php include 'right.php'; ?>
+   84    <?php include 'components/right.php'; ?>
    85  
    86:   <?php include 'footer.php'; ?>
    87  

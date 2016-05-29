@@ -54,6 +54,6 @@ var google_remarketing_only = false;
 
   </div>
 
-  <?php include 'right.php'; ?>
+  <?php include 'components/right.php'; ?>
 
   <?php include 'components/footer.php'; ?>

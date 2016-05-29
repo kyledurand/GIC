@@ -81,6 +81,6 @@ We serve an array of clients that fall into the following  categories:</p>
 
   </div>
 
-  <?php include 'right.php'; ?>
+  <?php include 'components/right.php'; ?>
 
   <?php include 'components/footer.php'; ?>

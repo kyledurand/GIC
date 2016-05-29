@@ -213,7 +213,7 @@ input.parsley-error, textarea.parsley-error {
 
 
 
-  <?php include 'rightAlt.php'; ?>
+  <?php include 'components/rightAlt.php'; ?>
 
 
 

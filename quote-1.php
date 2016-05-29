@@ -114,5 +114,5 @@ input.parsley-error, textarea.parsley-error {
         <br>
         <div class="clear"></div>
       </div>
-      <?php include 'rightAlt.php'; ?>
+      <?php include 'components/rightAlt.php'; ?>
       <?php include 'components/footer.php'; ?>

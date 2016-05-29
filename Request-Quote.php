@@ -123,6 +123,6 @@ input.parsley-error, textarea.parsley-error {
 
   </div>
 
-  <?php include 'rightAlt.php'; ?>
+  <?php include 'components/rightAlt.php'; ?>
 
   <?php include 'components/footer.php'; ?>
