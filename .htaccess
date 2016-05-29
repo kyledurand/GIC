@@ -29,5 +29,6 @@ Redirect 301 /Sharps-Home-Disposal /Sharps-Disposal
 Redirect 301 /Who-We-Serve /waste-disposal-industries
 Redirect 301 /Eco-Friendly /Eco-Friendly-Waste-Disposal
 Redirect 301 /Safety /safe-disposal-of-medical-waste
+Redirect 301 /Compliance-Training-Program /medical-waste-compliance-training
 
 ErrorDocument 404 http://gicmd.com/404.php

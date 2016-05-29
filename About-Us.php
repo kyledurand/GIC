@@ -1,11 +1,11 @@
 <?php ob_start();
-$title = "RX Waste & Chemical Disposal Services Ottawa | GIC MD";
-$desc  = "GIC Medical Disposal is a premier sharps, pharmaceuticals and RX waste disposal company in Ottawa & Ontario and offers chemical disposal services.";
-$keywords = "RX Waste Disposal, Chemical Disposal Services Ottawa";
+$title = "RX Waste & Chemical Disposal Services Toronto | GIC MD";
+$desc  = "GIC Medical Disposal is a premier sharps, pharmaceuticals and RX waste disposal company in Toronto & Ontario and offers chemical disposal services.";
+$keywords = "RX Waste Disposal, Chemical Disposal Services Toronto";
 ?>
 <?php include 'header.php'; ?>
 
-<div class="shadow mainImageSub center mgnT14"><img src="img/about-us.jpg" width="960" height="307" alt="rx waste disposal Ottawa"></div>
+<div class="shadow mainImageSub center mgnT14"><img src="img/about-us.jpg" width="960" height="307" alt="rx waste disposal Toronto"></div>
 
 <br>
 
@@ -33,7 +33,7 @@ $keywords = "RX Waste Disposal, Chemical Disposal Services Ottawa";
 
       <p>GIC coordinates with its clients to provide tailor-made services that afford complete flexibility and freedom.</p>
       
-      <h1 class="seo-h2-meta-tag">Chemical Disposal Services Ottawa</h1>
+      <h1 class="seo-h2-meta-tag">Chemical Disposal Services Toronto</h1>
       
       <p>GIC employs a team of courteous experts who are competent in addressing the unique needs of medical practitioners.</p>
 
