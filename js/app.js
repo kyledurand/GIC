@@ -1,5 +1,5 @@
-'use strict';
+"use strict";
 
 $(document).ready(function () {
-  console.log('rolo');
+  // Execute scripts here
 });

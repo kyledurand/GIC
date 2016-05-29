@@ -321,57 +321,6 @@ p.ecofriendly {
   margin: 0px;
 }
 
-.footerGrey {
-  box-shadow: 0px 3px 10px 0px #999;
-  padding: 0;
-  display: block;
-  background: #EEE;
-  margin: auto;
-  max-width: $siteMaxWidth;
-  padding: 0 (default(spacing) * 2) 0 224px;
-
-  h3 {
-    margin: default(spacing) 0;
-  }
-
-  @include before(small) {
-    padding: default(spacing) * 10 default(spacing) * 2 0;
-  }
-}
-
-.footerBlue {
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  box-shadow: 0px 3px 10px 0px #999;
-  padding: 0;
-  display: block;
-  background: #006db7;
-  max-width: $siteMaxWidth;
-  padding: 20px;
-
-  * {
-    color: color(gray, dark);
-  }
-}
-
-.footerDoctor {
-  margin-top: -36px;
-  margin-left: 12px;
-  position: absolute;
-}
-
-.footerContent {
-  width: auto;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  margin-top: default(spacing) * 5;
-  position: relative;
-
-  @include before(small) {
-    margin-top: 0;
-  }
-}
-
 .floatRight{
   position: relative;
 }

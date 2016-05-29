@@ -1,4 +1,4 @@
-<img class="footerDoctor" src="img/truck.png?v=2" width="181" height="132" alt="Your Medical Waste Disposal Specialists">
+<img class="footerTruck" src="img/truck.png?v=2" alt="Your Medical Waste Disposal Specialists">
 </div>
 <footer class="contents center">
   <div class="bgGrey">
@@ -8,7 +8,7 @@
           <h3> MEDICAL WASTE DISPOSAL SPECIALISTS</h3>
         </div>
         <div class="floatRight">
-          <h3>NEED HELP? <?= $to_phone; ?></h3>
+          <h3><span class="media__helpers--hide-before-large">NEED HELP? </span><?= $to_phone; ?></h3>
         </div>
         <div class="clear"></div>
       </div>
@@ -17,12 +17,13 @@
           <h3><strong itemprop="name">GIC Medical Disposal</strong></h3>
           <p itemprop="description">Medical Waste Disposal Services</p>
           <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> <span itemprop="streetAddress">2nd Floor - 243 Queen St West, </span><span itemprop="addressLocality">Toronto</span>, <span itemprop="addressRegion">ON</span> M5V 1Z4 Canada</div>
-          <p itemprop="telephone">Toll Free: <?= $to_phone; ?></p>
+          <p itemprop="telephone"><span class="media__helpers--hide-before-medium">Toll Free: </span><?= $to_phone; ?></p>
           <p itemprop="faxNumber">Fax: 416 - 800 - 0373</p>
           <p itemprop="email">Email: <a href="mailto:<?= $to_email; ?>"><?= $to_email; ?></a></p>
         </div>
-        <div class="footerContent floatRight ar"><img src="img/footerGIClogo.gif" width="82" height="34" alt="GICMD.com">
-
+        
+        <div class="footerContent floatRight ar">
+          <img src="img/footerGIClogo.gif" width="82" height="34" alt="GICMD.com">
           <p style="color:#FFF;"><strong>Copyright © 2016 GIC Medical Disposal</strong><br>
             <a href="Terms.php">Privacy Policy</a><br>
             <a href="Terms.php">Terms of Use</a><br>
@@ -37,6 +38,7 @@
     <div class="clear"></div>
   </div>
 </footer>
+
 <script type="text/javascript" src="js/app.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 <script type="text/javascript" src="js/vendor/slides.min.jquery.js"></script>
