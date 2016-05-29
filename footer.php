@@ -8,7 +8,7 @@
           <h3> MEDICAL WASTE DISPOSAL SPECIALISTS</h3>
         </div>
         <div class="floatRight">
-          <h3><span class="media__helpers--hide-before-large">NEED HELP? </span><?= $to_phone; ?></h3>
+          <h3><span class="media__helpers--hide-before-medium">NEED HELP? </span><?= $to_phone; ?></h3>
         </div>
         <div class="clear"></div>
       </div>

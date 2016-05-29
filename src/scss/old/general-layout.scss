@@ -320,7 +320,7 @@ p.ecofriendly {
   color: #006db7;
   margin: 0px;
 
-  @include before(medium) {
+  @include before(small) {
     background-image: url("../img/chevron-gray.png");
     width: 11px;
     height: 18px;
