@@ -13,7 +13,7 @@ include 'header.php';
         
     </div> 
  <?php
-include 'right.php';
+include 'components/right.php';
 ?>  <?php
-include 'footer.php';
+include 'components/footer.php';
 ?>

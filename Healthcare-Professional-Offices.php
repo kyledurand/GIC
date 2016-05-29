@@ -47,6 +47,6 @@ It is your duty and responsibility to discard these  pharmaceuticals waste at yo
 
   </div>
 
-  <?php include 'right.php'; ?>
+  <?php include 'components/right.php'; ?>
 
-  <?php include 'footer.php'; ?>
+  <?php include 'components/footer.php'; ?>

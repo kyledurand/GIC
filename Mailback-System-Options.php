@@ -30,5 +30,5 @@
         Consult one of our customer representatives at <strong><?= $to_phone; ?></strong> (toll free) to find out  if your business qualifies for our Mailback Systems Option.                </div>
     <div class="clear"></div>
   </div>
-  <?php include 'right.php'; ?>
-  <?php include 'footer.php'; ?>
+  <?php include 'components/right.php'; ?>
+  <?php include 'components/footer.php'; ?>

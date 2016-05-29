@@ -319,6 +319,17 @@ p.ecofriendly {
   float: right;
   color: #006db7;
   margin: 0px;
+
+  @include before(medium) {
+    background-image: url("../img/chevron-gray.png");
+    width: 11px;
+    height: 18px;
+    background-size: 11px 18px;
+
+    a {
+      display: none;
+    }
+  }
 }
 
 .floatRight{
