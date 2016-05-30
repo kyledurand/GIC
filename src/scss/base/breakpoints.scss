@@ -87,8 +87,7 @@ $BREAKPOINT_INCREMENTS: (
 
 @mixin to($point) { @include breakpoint-to($point) { @content; } }
 
-
-@mixin breakpoint($after: null, $before: null, $from: null, $to: null, $until: null, $retina: false) {
+@mixin breakpoint($after: null, $before: null, $from: null, $to: null, $until: null) {
   $min-width: null;
   $max-width: null;
   $min-inclusive: null;
@@ -130,15 +129,10 @@ $BREAKPOINT_INCREMENTS: (
   $media-query: "screen";
   @if $min-width { $media-query: "#{$media-query} and #{$min-width}"; }
   @if $max-width { $media-query: "#{$media-query} and #{$max-width}"; }
-  @if $retina { $media-query: breakpoint-retinize-media-query($media-query); }
 
   @media #{$media-query} {
     @content;
   }
-}
-
-@mixin retina() {
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { @content; }
 }
 
 @each $breakpoint, $width in $BREAKPOINTS {
