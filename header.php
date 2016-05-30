@@ -1,7 +1,7 @@
 <?php
-  include("components/ref.php");
-  ini_set('session.bug_compat_warn', 0);
-  ini_set('session.bug_compat_42', 0);
+include("components/ref.php");
+ini_set('session.bug_compat_warn', 0);
+ini_set('session.bug_compat_42', 0);
 ?>
 
 <head>
@@ -33,7 +33,7 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script type="text/javascript">
+  <script type="text/javascript">
 function MM_goToURL() { //v3.0
   var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
   for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
@@ -73,60 +73,26 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
   <div class="banner"></div>
   <div class="contents center">
     <header>
-      <div class="logo" itemscope itemtype="http://schema.org/Organization">
-        <a itemprop="url" href="http://gicmd.com" class="is-hidden-and-accessible">Home</a>
-        <img itemprop="logo" src="img/logo.png" alt="GIC Medical Disposal - Premium Medical Disposal Service" width="205" height="90" border="0"/>
+      <div class="header--expanded">
+        <div class="logo" itemscope itemtype="http://schema.org/Organization">
+          <a itemprop="url" href="http://gicmd.com" class="is-hidden-and-accessible">Home</a>
+          <img itemprop="logo" src="img/logo.png" alt="GIC Medical Disposal - Premium Medical Disposal Service" width="205" height="90" border="0"/>
+        </div>
+
+        <div class="nav">
+          <div class="search">
+            <div class="welcome fl">A BETTER MEDICAL WASTE DISPOSAL ALTERNATIVE</div>
+            <div class="phone fr"><?= $to_phone; ?></div>
+          </div>
+
+          <div class="clear"></div>
+
+          <?php include 'components/menu.php'; ?>
+        </div>
       </div>
 
-      <div class="nav">
-        <div class="search">
-         <div class="welcome fl">A BETTER MEDICAL WASTE DISPOSAL ALTERNATIVE</div>
-         <div class="phone fr"><?= $to_phone; ?></div>
-       </div>
-
-       <div class="clear"></div>
-
-       <ul id="nav">
-         <li class="arrow"><a href="About-Us">ABOUT US</a>
-           <ul class="aboutSub">
-            <li><a href="Who-We-Serve">Who We Serve</a></li>
-            <li><a href="faq">FAQ's</a></li>
-            <li><a href="Eco-Friendly-Waste-Disposal">ECO Friendly</a></li>
-            <li><a href="safe-disposal-of-medical-waste">Safety</a></li>
-            <li><a href="Testimonials">Testimonials</a></li>
-            <li><a href="Compliance-Training-Program">Compliance Training Program</a></li>
-            <li class="noBorder"><a href="Careers">Careers</a></li>
-          </ul>
-        </li>
-        <li class="arrow"><a href="Services">OUR SERVICES</a>
-         <ul class="servicesSub">
-          <li><a href="Sharps-Disposal">Sharps Disposal</a></li>
-          <li><a href="Container-Replacement">Container Replacement Packages</a></li>
-          <li><a href="Pharmaceuticals-Disposal">Pharmaceuticals Disposal Services</a></li>
-          <li><a href="Pharmaceutical-Recall">Pharmaceutical Returns or Disposal</a></li>
-          <li><a href="Chemical-Waste-Disposal">Chemical Disposal Services</a></li>
-          <li><a href="Biohazard-Waste-Disposal">Biohazard Waste Disposal</a></li>
-          <li><a href="Chemical-Lab-Packing">Chemical Lab Packing</a></li>
-          <li class="noBorder"><a href="Sustainability-Services">Sustainability Services</a></li>
-        </ul>
-      </li>
-      <li class="arrow"><a href="Products">PRODUCTS</a>
-       <ul class="productsSub">
-        <li><a href="Sharps-Containers">Sharps Containers</a></li>
-        <li><a href="Biomedical-Waste-Containers">Biomedical Waste Containers</a></li>
-        <li><a href="Other-Waste-Containers">Other Waste Containers</a></li>
-        <li class="noBorder"><a href="Biomedical-Waste-Bags">Biomedical Waste Bags</a></li>
-      </ul>
-    </li>
-    <li><a href="Global">GLOBAL</a></li>
-    <li class="arrow"><a href="Contact-Us">CONTACT US</a>
-     <ul class="contactSub">
-      <li><a href="Start-Service">Start a Service</a></li>
-      <li><a href="Request-Quote">Request a Quote</a></li>
-      <li class="noBorder"><a href="Careers">Careers</a></li>
-    </ul>
-  </li>
-</ul>
-</div>
-</header>
-<div class="clear"></div>
+      <div class="header--condensed">
+        <p>mobile header</p>
+      </div>
+    </header>
+    <div class="clear"></div>
