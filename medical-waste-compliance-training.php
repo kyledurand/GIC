@@ -17,9 +17,9 @@
     <div class="lineRuleSolid"></div>
     <div id="left">
 
-      <p>  
+      <h2>
         Up to date, clearly spelled out, easy to follow medical waste compliance training.
-      </p>
+      </h2>
 
       <p>
         Count on GICMD to help you and your staff learn the
@@ -29,9 +29,9 @@
       </p>
 
       <h3>Learn from our Medical Waste Compliance Professionals</h3>
-      
+
       <img src="img/Compliance-Training.jpg" width="258" height="172" alt="waste disposal compliance training canada" class="stock">
-      
+
       <p>
         Our experts always deliver a comprehensive medical waste compliance
         workshop through our Compliance Training Program by teaching:
@@ -46,9 +46,9 @@
       </p>
       <p>
         Our Compliance Training Program is structured after the  strict guidelines established by Environment Canada. We will also instruct you  about the policies and regulated standards outlined in your municipal and  provincial legislations. We will also assess and evaluate your current medical  waste management if it is up to legal standards — one that guarantees safety of  everyone and the environment.
-      </p>      
+      </p>
       <h3>Collaborate with our GICMD Trainers</h3>
-      <p>        
+      <p>
         Sign up for the GICMD&rsquo;s Compliance Training Program to be  part of the solution! Ensure that your medical wastes do not put the health of  many at risk, but at the same time develop your facility&rsquo;s workflow with ease  and convenience. Take advantage of GICMD&rsquo;s cost-effective and secured disposal  services.<br>
         Put your confidence in GICMD to facilitate a safe and  compliant waste disposal system in your facility. Consult with our team of  specialists today by calling <strong><?= $to_phone; ?></strong> (toll free).<br>
       </p>
