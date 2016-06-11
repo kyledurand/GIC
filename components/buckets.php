@@ -58,3 +58,27 @@
       </span>
     </p>
   </div>
+
+  <div class="clear"></div>
+
+  <ul class="list services">
+    <li>bio medical waste disposal</li>
+    <li>sharps disposal</li>
+    <li>container replacement</li>
+    <li>pharmaceutical disposal</li>
+    <li>pharmaceutical returns</li>
+    <li>chemical disposal services</li>
+    <li>biohazard waste disposal</li>
+    <li>schemical lab packing</li>
+  </ul>
+
+  <span itemscope itemtype="http://schema.org/Service">
+    <meta itemprop="serviceType" content="bio medical waste disposal" />
+    <meta itemprop="serviceType" content="sharps disposal" />
+    <meta itemprop="serviceType" content="pharmaceutical disposal" />
+    <meta itemprop="serviceType" content="pharmaceutical returns" />
+    <meta itemprop="serviceType" content="chemical disposal services" />
+    <meta itemprop="serviceType" content="biohazard waste disposal" />
+    <meta itemprop="serviceType" content="container replacement" />
+    <meta itemprop="serviceType" content="chemical lab packing" />
+  </span>

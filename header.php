@@ -73,10 +73,9 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
   <div class="banner"></div>
   <div class="contents center">
     <header>
-      <div class="logo">
-        <a href="/">
-          <img src="img/logo.png" alt="GIC Medical Disposal - Premium Medical Disposal Service" width="205" height="90" border="0">
-        </a>
+      <div class="logo" itemscope itemtype="http://schema.org/Organization">
+        <a itemprop="url" href="http://gicmd.com" class="is-hidden-and-accessible">Home</a>
+        <img itemprop="logo" src="img/logo.png" alt="GIC Medical Disposal - Premium Medical Disposal Service" width="205" height="90" border="0"/>
       </div>
 
       <div class="nav">
