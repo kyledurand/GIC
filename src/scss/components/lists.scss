@@ -1,0 +1,10 @@
+$bucket-icon-and-padding-size: 60px;
+
+.list {
+  list-style: none;
+}
+
+.services {
+  columns: 3;
+  padding-left: $bucket-icon-and-padding-size;
+}
