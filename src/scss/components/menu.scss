@@ -28,7 +28,7 @@ $dropdownWidth: 215px;
   height: 43px;
   transition: font-size 0.2s ease-in-out;
 
-  @include before(large) {
+  @include before(large-screens) {
     @include font-size(small);
   }
 }

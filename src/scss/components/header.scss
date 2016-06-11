@@ -1,21 +1,19 @@
 .header--expanded {
   @include default(box-shadow);
-  display: flex;
-  min-height: 90px;
-}
-
-.header--condensed {
   display: none;
+  min-height: 90px;
 
-  @include after(medium) {
-    @include default(box-shadow);
+  @include after(medium-screens) {
     display: flex;
-    min-height: 90px;
   }
 }
 
 .header--condensed {
-  @include after(medium) {
+  @include default(box-shadow);
+    display: flex;
+    min-height: 90px;display: block;
+
+  @include after(medium-screens) {
     display: none;
   }
 }
@@ -33,7 +31,7 @@
   margin-top: 20px;
   color: #FFF;
 
-  @include before(large) {
+  @include before(large-screens) {
     display: none;
   }
 }

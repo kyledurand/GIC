@@ -62,7 +62,7 @@ a {
   padding: 20px;
   padding-bottom: 10px;
 
-  @include before(medium) {
+  @include before(medium-screens) {
     padding-bottom: default(spacing) * 4;
   }
 
@@ -183,7 +183,7 @@ textarea {
   vertical-align: top;
   padding-right: default(spacing) * 2;
 
-  @include before(medium) {
+  @include before(medium-screens) {
     max-width: 100%;
   }
 }
@@ -195,7 +195,7 @@ textarea {
   text-align: left;
   vertical-align: top;
 
-  @include before(medium) {
+  @include before(medium-screens) {
     width: 100%;
   }
 }
@@ -235,7 +235,7 @@ textarea {
 .bucket {
   width: 50%;
 
-  @include before(medium) {
+  @include before(medium-screens) {
     width: 100%;
   }
 
@@ -254,7 +254,7 @@ textarea {
   max-width: calc(25% - #{default(spacing--small) - 3px});
   padding: default(spacing--small);
 
-  @include before(small) {
+  @include before(small-screens) {
     max-width: calc(50% - #{default(spacing--small) - 3px});
   }
 }
@@ -284,7 +284,7 @@ p.ecofriendly {
   color: #006db7;
   margin: 0px;
 
-  @include before(small) {
+  @include before(small-screens) {
     background-image: url("../img/chevron-gray.png");
     width: 11px;
     height: 18px;
