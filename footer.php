@@ -5,7 +5,7 @@
     <div class="contents center">
       <div class="footerGrey">
         <div class="floatLeft media__helpers--hide-before-large">
-          <h3> MEDICAL WASTE DISPOSAL SPECIALISTS</h3>
+          <h3>MEDICAL WASTE DISPOSAL SPECIALISTS</h3>
         </div>
         <div class="floatRight">
           <h3><span class="media__helpers--hide-before-medium">NEED HELP? </span><?= $to_phone; ?></h3>
@@ -21,10 +21,11 @@
           <p itemprop="faxNumber">Fax: 416 - 800 - 0373</p>
           <p itemprop="email">Email: <a href="mailto:<?= $to_email; ?>"><?= $to_email; ?></a></p>
         </div>
-        
+
         <div class="footerContent floatRight ar">
           <img src="img/footerGIClogo.gif" width="82" height="34" alt="GICMD.com">
-          <p style="color:#FFF;"><strong>Copyright © 2016 GIC Medical Disposal</strong><br>
+          <p style="color:#FFF;">
+            <strong>Copyright © 2016 GIC Medical Disposal</strong><br>
             <a href="Terms.php">Privacy Policy</a><br>
             <a href="Terms.php">Terms of Use</a><br>
             <a href="Services.php">Service Request </a><br>

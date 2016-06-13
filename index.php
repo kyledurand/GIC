@@ -87,7 +87,8 @@
 <div class="next">
   <a class="next" href="#"></a>
 </div>
-</div><br>
+</div>
+<br>
 
 <div class="clear"></div>
 

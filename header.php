@@ -1,7 +1,7 @@
 <?php
-include("components/ref.php");
-ini_set('session.bug_compat_warn', 0);
-ini_set('session.bug_compat_42', 0);
+  include("components/ref.php");
+  ini_set('session.bug_compat_warn', 0);
+  ini_set('session.bug_compat_42', 0);
 ?>
 
 <head>
@@ -86,13 +86,13 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
           </div>
 
           <div class="clear"></div>
-
           <?php include 'components/menu.php'; ?>
         </div>
       </div>
 
       <div class="header--condensed">
-        <p>mobile header</p>
+        <?php $menuVersion = 'condensed' ?>
+        <?php include 'components/menu.php'; ?>
       </div>
     </header>
     <div class="clear"></div>
