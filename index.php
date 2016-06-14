@@ -8,7 +8,7 @@
   $keywords = "waste management Toronto, hazardous waste disposal Toronto, waste management Mississauga";
 ?>
 
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div id="slides">
   <div class="slides_container">
@@ -87,7 +87,8 @@
 <div class="next">
   <a class="next" href="#"></a>
 </div>
-</div><br>
+</div>
+<br>
 
 <div class="clear"></div>
 

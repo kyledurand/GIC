@@ -1,52 +1,59 @@
 $dropdownWidth: 215px;
 
-#nav {
+.expanded {
   display: flex;
   flex-wrap: wrap;
 }
 
-#nav li {
+.expanded li {
   flex: 1 1 auto;
   position: relative;
-  padding: 0 default(spacing--small);
+  padding: 1px spacing(tight);
 }
 
-#nav, #nav ul {
+.expanded, .expanded ul {
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
 }
 
-#nav a {
+.expanded a {
   @include color(white, base);
+  @include font-size(small);
   display: block;
   text-decoration: none;
   font-family: "Dosis";
   font-weight: bold;
-  font-size: 20px;
-  height: 43px;
+  height: 30px;
+  transition: font-size 0.2s ease-in-out;
+
+  @include after(large-screens) {
+    @include font-size(large);
+    height: 43px;
+  }
 }
 
-#nav ul a {
+.expanded ul a {
   height: auto;
 }
 
-#nav li ul {
+.expanded li ul {
   @include default(box-shadow);
   position: absolute;
   border-radius: 0 0 default(border-radius) default(border-radius);
   width: $dropdownWidth;
   margin-left: calc(50% - #{$dropdownWidth} / 2);
-  padding: default(spacing--small) / 2;
+  padding: spacing(tight) / 2;
   background-color: #ededed;
   z-index:1000;
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
   pointer-events: none;
+  margin-top: 1px;
 }
 
-#nav li:hover ul, #nav li.sfhover ul  {
+.expanded li:hover ul, .expanded li.sfhover ul  {
   opacity: 1;
   pointer-events: all;
 }
@@ -56,7 +63,7 @@ $dropdownWidth: 215px;
   position: relative;
 }
 
-#nav li ul li {
+.expanded li ul li {
   margin: 5px 0 0;
   display: block;
   border-bottom: 1px dashed #999;
@@ -64,11 +71,11 @@ $dropdownWidth: 215px;
   padding-bottom: 5px;
 }
 
-#nav li ul li.noBorder {
+.expanded li ul li.noBorder {
   border: none;
 }
 
-#nav li ul li a {
+.expanded li ul li a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   text-align: left;
@@ -76,7 +83,7 @@ $dropdownWidth: 215px;
   color: #262626;
 }
 
-#nav li ul li a:hover {
+.expanded li ul li a:hover {
   color: #94c400;
 }
 
@@ -97,4 +104,42 @@ $dropdownWidth: 215px;
 
 .arrow:hover {
   background-position: center bottom;
+}
+
+// Mobile menu styles
+
+.menu--condensed {
+  @include transition(transform property(ease-in-out));
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translate3d(100%, 0, 0);
+  background-color: color(gray);
+
+  @include after(medium-screens) {
+    display: none;
+  }
+
+  &.menu-is-visible {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.condensed {
+  margin-top: spacing(loose) * 2;
+  padding: spacing(loose);
+}
+
+.menu-list__item {
+  @include color(slate);
+}
+
+.menu-dismiss {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: spacing(loose);
 }

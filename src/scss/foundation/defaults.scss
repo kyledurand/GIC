@@ -1,11 +1,9 @@
 $defaults-map: (
-  spacing--small: 8px,
-  spacing: 10px,
-  spacing--large: 15px,
   line-height: 1.4rem,
   border: 1px solid color(gray, dark),
   border-radius: 3px,
   box-shadow: 0px 4px 10px 0px rgba(color(black), 0.25),
+  gradient: linear-gradient(to bottom, #0087d1 1%, #006db7 100%),
 );
 
 @function default($property) {
