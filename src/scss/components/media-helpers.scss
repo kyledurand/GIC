@@ -6,3 +6,9 @@
   height: 1px;
   overflow: hidden;
 }
+
+.hide-before-large {
+  @include before(large-screens) {
+    display: none;
+  }
+}

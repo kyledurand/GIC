@@ -20,16 +20,17 @@ $dropdownWidth: 215px;
 
 .expanded a {
   @include color(white, base);
+  @include font-size(small);
   display: block;
   text-decoration: none;
   font-family: "Dosis";
   font-weight: bold;
-  font-size: 20px;
-  height: 43px;
+  height: 30px;
   transition: font-size 0.2s ease-in-out;
 
-  @include before(large-screens) {
-    @include font-size(small);
+  @include after(large-screens) {
+    @include font-size(large);
+    height: 43px;
   }
 }
 
@@ -127,6 +128,18 @@ $dropdownWidth: 215px;
   }
 }
 
+.condensed {
+  margin-top: spacing(loose) * 2;
+  padding: spacing(loose);
+}
+
 .menu-list__item {
   @include color(slate);
+}
+
+.menu-dismiss {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: spacing(loose);
 }

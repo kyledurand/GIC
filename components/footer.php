@@ -4,11 +4,11 @@
   <div class="bgGrey">
     <div class="contents center">
       <div class="footerGrey">
-        <div class="floatLeft media__helpers--hide-before-large">
+        <div class="floatLeft hide-before-large">
           <h3> MEDICAL WASTE DISPOSAL SPECIALISTS</h3>
         </div>
         <div class="floatRight">
-          <h3><span class="media__helpers--hide-before-large">NEED HELP? </span><?= $to_phone; ?></h3>
+          <h3><span class="hide-before-large">NEED HELP? </span><?= $to_phone; ?></h3>
         </div>
         <div class="clear"></div>
       </div>
@@ -21,7 +21,7 @@
           <p itemprop="faxNumber">Fax: 416 - 800 - 0373</p>
           <p itemprop="email">Email: <a href="mailto:<?= $to_email; ?>"><?= $to_email; ?></a></p>
         </div>
-        
+
         <div class="footerContent floatRight ar">
           <img src="img/footerGIClogo.gif" width="82" height="34" alt="GICMD.com">
           <p style="color:#FFF;"><strong>Copyright © 2016 GIC Medical Disposal</strong><br>
@@ -39,6 +39,7 @@
   </div>
 </footer>
 
+<script type="text/javascript" src="js/vendor/classie.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 <script type="text/javascript" src="js/vendor/slides.min.jquery.js"></script>

@@ -1,7 +1,10 @@
+$logo-width: rem(200px);
+$logo-width-medium: rem(224px);
+$logo-width-large: rem(274px);
+
 .header--expanded {
   @include default(box-shadow);
   display: none;
-  min-height: 90px;
 
   @include after(medium-screens) {
     display: flex;
@@ -9,13 +12,26 @@
 }
 
 .header--condensed {
-  @include default(box-shadow);
-    display: flex;
-    min-height: 90px;display: block;
-
   @include after(medium-screens) {
     display: none;
   }
+}
+
+.logo {
+  padding: spacing(tight);
+  max-width: $logo-width - spacing() * 2;
+
+  @include after(medium-screens) {
+    max-width: $logo-width-medium - spacing() * 2;
+  }
+
+  @include after(large-screens) {
+    max-width: $logo-width-large;
+  }
+}
+
+.blue-gradient {
+  background: default(gradient);
 }
 
 .nav {
@@ -31,18 +47,22 @@
   margin-top: 20px;
   color: #FFF;
 
-  @include before(large-screens) {
+  @include before(medium-screens) {
     display: none;
   }
 }
 
 .phone {
+  @include font-size(small);
   font-family: 'Dosis';
-  font-size: 24px;
   margin-right: 47px;
   margin-top: 10px;
   margin-bottom: 8px;
   color: #FFF;
   text-align: right;
   letter-spacing: 1px;
+
+  @include after(large-screens) {
+    @include font-size(large);
+  }
 }

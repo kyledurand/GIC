@@ -1,31 +1,29 @@
-'use strict';
-
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
   console.log('olo');
-  var constants = {
+  const constants = {
     body: document.querySelector('body'),
     menu: document.querySelector('.menu--condensed'),
     menuTrigger: document.querySelector('[data=menu-trigger]'),
     menuDismiss: document.querySelector('[data=menu-dismiss]'),
     mediumBreakpoint: 720,
-    menuIsOpen: 'menu-is-visible'
+    menuIsOpen: 'menu-is-visible',
   };
 
-  constants.menuTrigger.onclick = function () {
+  constants.menuTrigger.onclick = () => {
     menuOpen();
-  };
+  }
 
-  constants.menuDismiss.onclick = function () {
+  constants.menuDismiss.onclick = () => {
     menuClose();
-  };
+  }
 
-  var menuOpen = function menuOpen() {
+  let menuOpen = () => {
     classie.addClass(constants.body, constants.menuIsOpen);
     classie.addClass(constants.menu, constants.menuIsOpen);
-  };
+  }
 
-  var menuClose = function menuClose() {
+  let menuClose = () => {
     classie.removeClass(constants.body, constants.menuIsOpen);
     classie.removeClass(constants.menu, constants.menuIsOpen);
-  };
+  }
 });

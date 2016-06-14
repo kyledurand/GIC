@@ -29,8 +29,12 @@ a {
 }
 
 .banner {
-  height: 3px;
-  background-color: color(blue, base);
+  display: none;
+
+  @include after(medium-screens) {
+    height: 3px;
+    background-color: color(blue, base);
+  }
 }
 
 .contents {

@@ -1,5 +1,5 @@
 $small-icon-size: 18px;
-$medium-icon-size: 22px;
+$medium-icon-size: 24px;
 
 .icon--small {
   width: $small-icon-size;
@@ -14,13 +14,11 @@ $medium-icon-size: 22px;
 .icon--white {
   * {
     fill: color(white);
-    stroke: color(white);
   }
 }
 
 .icon--slate {
   * {
     fill: color(slate);
-    stroke: color(slate);
   }
 }

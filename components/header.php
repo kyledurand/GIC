@@ -1,7 +1,7 @@
 <?php
-  include("components/ref.php");
-  ini_set('session.bug_compat_warn', 0);
-  ini_set('session.bug_compat_42', 0);
+include("components/ref.php");
+ini_set('session.bug_compat_warn', 0);
+ini_set('session.bug_compat_42', 0);
 ?>
 
 <head>
@@ -33,42 +33,22 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script type="text/javascript">
-function MM_goToURL() { //v3.0
-  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
-  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
-}
-</script>
-<link rel="stylesheet" href="css/main.css?v=3">
-<script type="text/javascript"><!--//--><![CDATA[//><!--
-  sfHover = function() {
-    var sfEls = document.getElementById("nav").getElementsByTagName("LI");
-    for (var i=0; i<sfEls.length; i++) {
-     sfEls[i].onmouseover=function() {
-      this.className+=" sfhover";
-    }
-    sfEls[i].onmouseout=function() {
-      this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
-    }
-  }
-}
-if (window.attachEvent) window.attachEvent("onload", sfHover);
-//--><!]]>
-</script>
+  <link rel="stylesheet" href="css/main.css?v=3">
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-7904252-14', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-7904252-14', 'auto');
+    ga('send', 'pageview');
 
-</script>
-
+  </script>
 </head>
+
 <body class="index " id="welcome" itemscope itemtype="http://schema.org/MedicalWebPage">
+  <?php include 'components/icons.php' ?>
   <link itemprop="audience" href="http://schema.org/Clinician" />
   <div class="banner"></div>
   <div class="contents center">
@@ -91,8 +71,38 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
       </div>
 
       <div class="header--condensed">
-        <?php $menuVersion = 'condensed' ?>
-        <?php include 'components/menu.php'; ?>
+        <div class="ui-stack blue-gradient">
+          <a class="ui-stack__element--spaced" href="tel:18773083745">
+            <span class="is-hidden-and-accessible">Call us</span>
+            <svg class="icon icon--medium icon--white">
+              <use xlink:href="#icon--phone" />
+            </svg>
+          </a>
+
+          <div class="ui-stack__element--fill-space logo" itemscope itemtype="http://schema.org/Organization">
+            <a itemprop="url" href="http://gicmd.com" class="is-hidden-and-accessible">Home</a>
+            <img itemprop="logo" src="img/logo-inverted.png" alt="GIC Medical Disposal - Premium Medical Disposal Service" border="0"/>
+          </div>
+
+          <button class="ui-stack__element--spaced button" data="menu-trigger">
+            <span class="is-hidden-and-accessible">Open menu</span>
+            <svg class="icon icon--medium icon--white">
+              <use xlink:href="#icon--menu" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="menu--condensed">
+          <button class="button menu-dismiss" data="menu-dismiss">
+            <span class="is-hidden-and-accessible">Close menu</span>
+            <svg class="icon icon--small icon--slate">
+              <use xlink:href="#icon--dismiss" />
+            </svg>
+          </button>
+
+          <?php $menuVersion = 'condensed' ?>
+          <?php include 'components/menu.php'; ?>
+        </div>
       </div>
     </header>
     <div class="clear"></div>
