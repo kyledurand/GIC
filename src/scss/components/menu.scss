@@ -8,7 +8,7 @@ $dropdownWidth: 215px;
 .expanded li {
   flex: 1 1 auto;
   position: relative;
-  padding: 1px default(spacing--small);
+  padding: 1px spacing(tight);
 }
 
 .expanded, .expanded ul {
@@ -43,7 +43,7 @@ $dropdownWidth: 215px;
   border-radius: 0 0 default(border-radius) default(border-radius);
   width: $dropdownWidth;
   margin-left: calc(50% - #{$dropdownWidth} / 2);
-  padding: default(spacing--small) / 2;
+  padding: spacing(tight) / 2;
   background-color: #ededed;
   z-index:1000;
   opacity: 0;
@@ -107,8 +107,26 @@ $dropdownWidth: 215px;
 
 // Mobile menu styles
 
-.condensed {
-  a {
-    @include color(slate);
+.menu--condensed {
+  @include transition(transform property(ease-in-out));
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translate3d(100%, 0, 0);
+  background-color: color(gray);
+
+  @include after(medium-screens) {
+    display: none;
   }
+
+  &.menu-is-visible {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.menu-list__item {
+  @include color(slate);
 }

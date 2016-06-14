@@ -1,12 +1,16 @@
 // Globals
-@import 'base/layout';
-@import 'base/variables';
+@import 'base/global-variables';
 @import 'base/breakpoints';
+@import 'base/variables';
 
 // Foundation
 @import 'foundation/colors';
 @import 'foundation/defaults';
 @import 'foundation/typography';
+@import 'foundation/transitions';
+@import 'foundation/utilities';
+@import 'foundation/spacing';
+@import 'foundation/layout';
 
 // Components
 @import 'components/media-helpers';

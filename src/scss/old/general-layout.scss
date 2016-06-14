@@ -63,12 +63,12 @@ a {
   padding-bottom: 10px;
 
   @include before(medium-screens) {
-    padding-bottom: default(spacing) * 4;
+    padding-bottom: spacing() * 4;
   }
 
   h1,
   h2 {
-    margin: default(spacing--large) 0;
+    margin: spacing(loose) 0;
   }
 }
 
@@ -181,7 +181,7 @@ textarea {
   display: inline-block;
   text-align: left;
   vertical-align: top;
-  padding-right: default(spacing) * 2;
+  padding-right: spacing(tight) * 2;
 
   @include before(medium-screens) {
     max-width: 100%;
@@ -251,11 +251,11 @@ textarea {
 .compliance-image {
   display: inline-block;
   vertical-align: top;
-  max-width: calc(25% - #{default(spacing--small) - 3px});
-  padding: default(spacing--small);
+  max-width: calc(25% - #{spacing(tight) - rem(3px)});
+  padding: spacing(tight);
 
   @include before(small-screens) {
-    max-width: calc(50% - #{default(spacing--small) - 3px});
+    max-width: calc(50% - #{spacing(tight) - rem(3px)});
   }
 }
 
