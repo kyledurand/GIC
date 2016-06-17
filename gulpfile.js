@@ -3,12 +3,19 @@ const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 const babel = require('gulp-babel');
+const uglify = require('gulp-uglify');
 
 gulp.task('javascripts', () => {
   gulp.src('src/js/app.es6')
   .pipe(babel({
     presets: ['es2015']
   }))
+  .pipe(gulp.dest('./js/'));
+});
+
+gulp.task('compress', () => {
+  gulp.src('js/app.js')
+  .pipe(uglify())
   .pipe(gulp.dest('./js/'));
 });
 
@@ -29,4 +36,5 @@ gulp.task('default',() => {
   gulp.watch('src/scss/**/*.scss',['styles']);
   gulp.watch('css/main.css',['minify-css']);
   gulp.watch('src/js/app.es6',['javascripts']);
+  gulp.watch('js/app.js',['compress']);
 });
