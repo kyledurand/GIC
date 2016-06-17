@@ -1,7 +1,6 @@
 'use strict';
 
 document.addEventListener("DOMContentLoaded", function () {
-  console.log('olo');
   var constants = {
     body: document.querySelector('body'),
     menu: document.querySelector('.menu--condensed'),

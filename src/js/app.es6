@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  console.log('olo');
   const constants = {
     body: document.querySelector('body'),
     menu: document.querySelector('.menu--condensed'),
