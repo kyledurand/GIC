@@ -2,7 +2,7 @@
   $title = "Chemical Lab Packing Services";
   $desc = "GICMD's lab packing involves removing hazardous and  non-hazardous chemicals from your facility or laboratory, freeing up space and protecting the environment.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>

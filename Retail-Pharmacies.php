@@ -4,7 +4,7 @@
   $desc = "Our Pharmaceuticals Waste Disposal Services  allow you to safely discard any type of pharmaceuticals without worry.";
 
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 

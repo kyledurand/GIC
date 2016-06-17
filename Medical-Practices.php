@@ -2,7 +2,7 @@
   $title = "Medical Disposal for Healthcare & Medical Facilities";
   $desc = "Collaborate with GICMD to map out the ideal waste management  to fit your facility and its operations without putting a dent on your budget.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>
 <div class="clear"></div>

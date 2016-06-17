@@ -5,7 +5,7 @@
 
 ?>
 
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 <script type="text/javascript">
  var RecaptchaOptions = {
     theme : 'custom',

@@ -4,7 +4,7 @@
   $desc = "We've compiled the questions often asked by our clients. If you don't find the answer you’re looking for, just contact our friendly GICMD experts.";
 
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 <div class="shadow mainImage center mgnT14"><img src="img/contact.jpg" width="960" height="107" alt="Contact Us for your Medical Waste Disposal Needs"></div>
 <br>
 <div class="clear"></div>

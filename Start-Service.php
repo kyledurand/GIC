@@ -10,7 +10,7 @@
 
 ?>
 
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <script type="text/javascript">
 
@@ -80,7 +80,7 @@ input.parsley-error, textarea.parsley-error {
 
 
 
-        <p><strong>Feel free to email us at <a href="mailto:info@gicmd.ca">info@gicmd.ca</a>, call us toll free at 
+        <p><strong>Feel free to email us at <a href="mailto:info@gicmd.ca">info@gicmd.ca</a>, call us toll free at
 
           <?= $to_phone; ?>
 
@@ -97,7 +97,7 @@ input.parsley-error, textarea.parsley-error {
     <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER" />
     <input type="hidden" name="csvfile" value="formdata.csv" />
     <input type="hidden" name="csvcolumns" value="Email,Name,Phone,Message" />
-    <input type="hidden" name="recipients" value="service@gicmd.ca" /> 
+    <input type="hidden" name="recipients" value="service@gicmd.ca" />
     <input type="hidden" name="lead_source" value="<?= $source; ?>" />
     <input type="hidden" name="good_url" value="Thank-You.php" />
     <input type="hidden" name="bad_url" value="Sorry.php" />
@@ -163,10 +163,10 @@ input.parsley-error, textarea.parsley-error {
 					  <script type="text/javascript" language="javascript">
 					  var num1=Math.floor(Math.random()*11);
 					  var num2=Math.floor(Math.random()*11);
-					  
+
 					  document.getElementById("num1").innerHTML = num1;
 					  document.getElementById("num2").innerHTML = num2;
-					  
+
 					  function checkAdd() {
 						f = document.form1;
 						var sum = parseInt(f.sum.value);

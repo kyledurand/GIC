@@ -1,12 +1,12 @@
 <?
 
  header("HTTP/1.1 301 Moved Permanently");
- header("Location: /Sharps-Disposal"); 
+ header("Location: /Sharps-Disposal");
 
   $title = "Sharps Home Disposal";
   $desc = "We offer efficiency and convenience when managing sharps waste produced at home using our Sharps Waste Disposal Kit. Sign up for this service to enjoy the GICMD advantage.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 <div class="shadow mainImage center mgnT14"><img src="img/sharps.jpg" width="960" height="107" alt="Sharps Container Removal"></div>
 <br>
 <div class="clear"></div>
@@ -15,7 +15,7 @@
     <h1>Sharps Waste Management for Homes</h1><div class="lineRuleSolid"></div>
     <div id="left">
       <p>Insulin treatments and other injections are done from the  comfort of your home. These types of household-generated sharps should not be  mixed with ordinary household wastes. Ensure that your sharps waste must be  properly segregated and disposed. Strict rules and guidelines must be followed.<br>
-Start a proper waste disposal management of simple sharps at  your home using the GICMD solutions:       
+Start a proper waste disposal management of simple sharps at  your home using the GICMD solutions:
       <ul>
         <li>Receive our guarantee that you and the members  of your household are protected.</li>
         <li>Have the assurance that our services are  designed to keep the environment safe against harmful substances.</li>

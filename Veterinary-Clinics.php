@@ -2,7 +2,7 @@
   $title = "Waste Disposal for Veterinary Clinics";
   $desc = " GICMD specialists will collaborate with you to establish the  ideal solutions to deal with your clinic's waste disposal management.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>
 <div class="clear"></div>

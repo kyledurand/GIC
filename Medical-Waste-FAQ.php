@@ -2,7 +2,7 @@
   $title = "Medical Waste FAQ";
   $desc = "We've compiled the most common questions our clients often ask.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14"><img src="img/waste.jpg" width="960" height="107" alt="Medical Waste Disposal"></div>
 <br>
@@ -11,7 +11,7 @@
   <div class="contentLeft">
     <h1>Medical Waste FAQ's</h1><div class="lineRuleSolid"></div>
     <div id="left">
-      <p>Distinction and segregation of medical wastes can be  confusing, if not complicated. You&rsquo;ve come to the right place to expand your  knowledge about medical wastes. We&rsquo;ve compiled the most common questions our  clients often ask.      
+      <p>Distinction and segregation of medical wastes can be  confusing, if not complicated. You&rsquo;ve come to the right place to expand your  knowledge about medical wastes. We&rsquo;ve compiled the most common questions our  clients often ask.
       <ul>
         <li>What is medical waste?</li>
         <li>What does biohazard mean?</li>

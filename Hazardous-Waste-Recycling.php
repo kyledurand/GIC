@@ -2,7 +2,7 @@
   $title = "Hazardous Waste Recycling";
   $desc = "GICMD's recycling treatments of hazardous wastes are  conducted under strict regulations.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>
 <div class="clear"></div>
@@ -10,7 +10,7 @@
   <div class="contentLeft">
     <h1>Hazardous Waste Recycling</h1><div class="lineRuleSolid"></div>
     <div id="left">
-      <p>Some hazardous waste can be recovered through careful  recycling methods. GICMD&rsquo;s recycling treatments of hazardous wastes are  conducted under strict regulations.      
+      <p>Some hazardous waste can be recovered through careful  recycling methods. GICMD&rsquo;s recycling treatments of hazardous wastes are  conducted under strict regulations.
 <p><a id="various1" href="#inline1" title="">What are recyclable hazardous materials?</a></p>
 
 	<div style="display: none;">

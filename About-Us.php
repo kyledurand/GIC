@@ -3,7 +3,7 @@ $title = "RX Waste & Chemical Disposal Services Toronto | GIC MD";
 $desc  = "GIC Medical Disposal is a premier sharps, pharmaceuticals and RX waste disposal company in Toronto & Ontario and offers chemical disposal services.";
 $keywords = "RX Waste Disposal, Chemical Disposal Services Toronto";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImageSub center mgnT14"><img src="img/about-us.jpg" width="960" height="307" alt="rx waste disposal Toronto"></div>
 
@@ -32,13 +32,13 @@ $keywords = "RX Waste Disposal, Chemical Disposal Services Toronto";
       <p>GIC is dedicated to providing its customers with hassle-free medical waste disposal services that reduce their environmental footprint.</p>
 
       <p>GIC coordinates with its clients to provide tailor-made services that afford complete flexibility and freedom.</p>
-      
+
       <h1 class="seo-h2-meta-tag">Chemical Disposal Services Toronto</h1>
-      
+
       <p>GIC employs a team of courteous experts who are competent in addressing the unique needs of medical practitioners.</p>
 
       <h2 class="seo-h2-meta-tag">RX Waste Disposal</h2>
-      
+
       <p>GIC is a full-service medical waste disposal service provider, and promises to provide its clients with the most competitive prices in the industry.</p>
 
       <h3>A Company You Can Count On</h3>

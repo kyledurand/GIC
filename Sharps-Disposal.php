@@ -2,7 +2,7 @@
   $title = "Sharps / Needles Disposal Services";
   $desc = "GICMD is committed to providing industry-leading solutions when it comes to sharps disposal management. Safety is our main priority. Call us.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 <div class="shadow mainImage center mgnT14"><img src="img/sharps.jpg" width="960" height="107" alt="Sharps Container Removal"></div>
 <br>
 <div class="clear"></div>
@@ -10,10 +10,10 @@
   <div class="contentLeft">
     <h1>Sharps Disposal Services</h1><div class="lineRuleSolid"></div>
     <div id="left">
-      <p>Many healthcare professionals accidentally get injured while  handling needle sticks, which could potentially lead to major health concerns. Incorrect  disposal of these sharps waste becomes hazardous to our health and the  environment.       
+      <p>Many healthcare professionals accidentally get injured while  handling needle sticks, which could potentially lead to major health concerns. Incorrect  disposal of these sharps waste becomes hazardous to our health and the  environment.
       <p>GICMD is committed to provide industry-leading solutions when  it comes to sharps disposal management. Safety is our main priority. <a id="various1" href="#inline1" title="">What is Sharps Waste?</a>
-        
-        
+
+
       <div style="display: none;">
 		<div id="inline1" style="width:400px;height:170px;overflow:auto;">
 			<h3>What is Sharps Waste?</h3>
@@ -23,7 +23,7 @@
 	  </div>
 	  <h3>Our Expertise in Sharps Waste  Disposal      </h3>
       <p>
-        <img src="img/Sharps-Disposal.jpg" width="198" height="280" alt="sharps disposal canada" class="stock">Depending on the sharps waste generated at your facility, our  trained experts will help you:            
+        <img src="img/Sharps-Disposal.jpg" width="198" height="280" alt="sharps disposal canada" class="stock">Depending on the sharps waste generated at your facility, our  trained experts will help you:
       <ul>
         <li>Choose the proper disposal containers and  biomedical waste bags for disposal. </li>
         <li>Ensure that the packaging of your sharps waste complies  with the guidelines implemented by the Ministry of Environment.</li>

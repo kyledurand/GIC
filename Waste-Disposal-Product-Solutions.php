@@ -2,7 +2,7 @@
   $title = "Waste Disposal Product Solutions";
   $desc = "View GICMD's top-quality products that guarantee safe and correct handling and discarding of hazardous wastes.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>
@@ -13,7 +13,7 @@
     <div id="left">
       <p>Proper waste disposal begins at GICMD. Combine our  specialized services with top quality products to guarantee safe and correct  handling and discarding of hazardous wastes.
       <p> <strong>Waste Disposal Products</strong>
-      <p>        Without the right accessories or tools, safe waste disposal  would be hard to achieve. GICMD products aren&rsquo;t just durable and efficient;  they&rsquo;re cost-effective and 100% environmentally safe.                  
+      <p>        Without the right accessories or tools, safe waste disposal  would be hard to achieve. GICMD products aren&rsquo;t just durable and efficient;  they&rsquo;re cost-effective and 100% environmentally safe.
       <ul>
         <li><a href="Biohazardous-Waste-Bags-Liners.php">Biohazardous Waste  Bags and Liners</a></li>
         <ul>

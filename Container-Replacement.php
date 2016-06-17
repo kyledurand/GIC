@@ -2,7 +2,7 @@
   $title = "Waste Container Replacement Services";
   $desc = "GICMD promises to deliver effective and top-tier waste management solutions at an affordable cost.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14"><img src="img/waste.jpg" width="960" height="107" alt="Medical Waste Disposal"></div>
 <br>
@@ -21,7 +21,7 @@
 <p>As the name suggests, these containers is specifically  designed for sharps wastes, especially needle sticks. Most sharps containers  are self-locking and sealable. These are commonly found in hospitals and  clinics, medical facilities, and laboratories.</p>
 <p> GICMD offers a large selection of sharps containers that  ranges in shapes and sizes. We will provide you the best in the industry.</p>
         </div>
-	</div> 
+	</div>
       <h3>Our Expertise in Container Replacement Services</h3>
       <p>GICMD will help you determine the right sharps waste  container, ensuring the following:</p>
       <ul>

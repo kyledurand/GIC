@@ -2,7 +2,7 @@
   $title = "Waste Management for Dental Offices";
   $desc = "Our GICMD specialists are ready to assist you when selecting the correct waste disposal products to suit your dental  facility.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>
 <div class="clear"></div>

@@ -54,8 +54,10 @@
     <header>
       <div class="header--expanded">
         <div class="logo" itemscope itemtype="http://schema.org/Organization">
-          <a itemprop="url" href="http://gicmd.com" class="is-hidden-and-accessible">Home</a>
-          <img itemprop="logo" src="img/logo.png" alt="GIC Medical Disposal - Premium Medical Disposal Service" border="0"/>
+          <a itemprop="url" href="http://gicmd.com">
+            <span class="is-hidden-and-accessible">Home></span>
+            <img itemprop="logo" src="img/logo.png" alt="GIC Medical Disposal - Premium Medical Disposal Service" border="0"/>
+          </a>
         </div>
 
         <div class="nav">

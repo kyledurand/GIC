@@ -2,7 +2,7 @@
   $title = "Biomedical & Biohazard Waste Container";
   $desc = "GICMD offers a wide assortment of biomedical waste disposal containers. Whatever suits your needs, we will deliver it to you! Try us today.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>
@@ -12,7 +12,7 @@
     <h1>Biomedical Waste Containers</h1><div class="lineRuleSolid"></div>
     <div id="left">
       <p>GICMD has a wide selection of medical waste containers that  will fit your facility&rsquo;s requirements. We offer reusable biomedical bins that  range from 100-450L. Whatever suits your needs and budget, we can deliver!<br>
-Consider the following when buying  waste containers:      
+Consider the following when buying  waste containers:
       <ul>
         <li>The type of waste your  facility produces and needs to dispose</li>
         <li>Your allotted space or  area for waste bins and containers</li>

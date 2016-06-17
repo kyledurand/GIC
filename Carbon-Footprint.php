@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14"><img src="img/eco.jpg" width="960" height="107" alt="Medical Waste Disposal"></div>
 <br>

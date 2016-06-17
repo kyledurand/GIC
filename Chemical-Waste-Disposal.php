@@ -2,7 +2,7 @@
   $title = "Hazardous Waste Disposal Toronto | Chemical Waste Disposal";
   $desc = "Let GICMD provide you a reliable and trusted service in handling chemical wastes through proper packing and disposing. Find out more.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>

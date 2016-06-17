@@ -4,7 +4,7 @@
   $disallowBots = true;
 ?>
 
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="contentBox mgnBI">
   <div class="contentLeft">

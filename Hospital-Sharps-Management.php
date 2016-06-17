@@ -2,7 +2,7 @@
   $title = "Hospital Sharps Management";
   $desc = "Let GICMD handle your hospital’s sharps waste using compliant and up-to-standards waste disposal techniques.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>
 <div class="clear"></div>

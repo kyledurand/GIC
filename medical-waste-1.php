@@ -4,7 +4,7 @@
   $disallowBots = true;
 ?>
 
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14">
   <img src="img/banner-1.png" width="960" height="107" alt="Hazardous waste disposal">
