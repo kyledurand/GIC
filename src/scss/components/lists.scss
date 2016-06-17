@@ -1,8 +1,6 @@
 $bucket-icon-and-padding-size: 60px;
 
 .list {
-  // margin: 0;
-
   * {
     padding: spacing(tight) / 2 0;
     text-decoration: none;
@@ -26,6 +24,10 @@ $bucket-icon-and-padding-size: 60px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.list__item {
+  position: relative;
 }
 
 .services {

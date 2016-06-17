@@ -135,6 +135,7 @@ $dropdownWidth: 215px;
 
 .menu-list__item {
   @include color(slate);
+  position: relative;
 }
 
 .menu-dismiss {
@@ -142,4 +143,72 @@ $dropdownWidth: 215px;
   top: 0;
   right: 0;
   padding: spacing(loose);
+}
+
+.list__chevron {
+  position: absolute;
+  transform: translate(spacing() * -1, 0);
+  margin-top: spacing(tight);
+  right: 0;
+
+  &:after,
+  &:before {
+    @include transition(transform property(ease-in-out));
+    content: "";
+    position: absolute;
+    background-color: color(blue);
+    width: 3px;
+    height: 9px;
+  }
+
+  &:before {
+    transform: translate(-2px, 0) rotate(45deg);
+  }
+
+  &:after {
+    transform: translate(2px, 0) rotate(-45deg);
+  }
+}
+
+.list__hidden-content {
+  @include transition(
+    opacity property(ease-in-out),
+    transform property(ease-in-out),
+    max-height property(ease-in-out-slow)
+  );
+  max-height: 800px;
+}
+
+.list__hidden-toggle {
+  @include before(medium-screens) {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+
+  &:checked {
+    &~.list__hidden-content {
+      margin-top: 0;
+      max-height: 0;
+      opacity: 0;
+      transform: translateY(spacing() * -1);
+      }
+    }
+
+    &~.list__chevron {
+      &:before {
+        transform: translate(2px, 0) rotate(45deg);
+      }
+
+      &:after {
+        transform: translate(-2px, 0) rotate(-45deg);
+      }
+    }
+  }
+
+  @include after(medium-screens) {
+    display: none;
+  }
 }

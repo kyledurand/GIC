@@ -1,6 +1,6 @@
 <?
   if ($menuVersion == 'condensed') {
-    $menuSize = 'condensed list--right-aligned';
+    $menuSize = 'condensed';
   } else {
     $menuSize = 'expanded';
   }
@@ -8,9 +8,11 @@
 
 <nav>
   <ul class="<?= $menuSize ?> list">
-    <li class="arrow">
+    <li class="menu-list__item arrow">
+      <input class="list__hidden-toggle" type="checkbox" checked>
+      <i class="list__chevron"></i>
       <a class="menu-list__item" href="About-Us">ABOUT US</a>
-      <ul class="aboutSub">
+      <ul class="list__hidden-content">
         <li><a class="menu-list__item" href="Who-We-Serve">Who We Serve</a></li>
         <li><a class="menu-list__item" href="faq">FAQ's</a></li>
         <li><a class="menu-list__item" href="Eco-Friendly-Waste-Disposal">ECO Friendly</a></li>
@@ -21,9 +23,11 @@
       </ul>
     </li>
 
-    <li class="arrow">
+    <li class="menu-list__item arrow">
+      <input class="list__hidden-toggle" type="checkbox" checked>
+      <i class="list__chevron"></i>
       <a class="menu-list__item" href="Services">OUR SERVICES</a>
-      <ul class="servicesSub">
+      <ul class="list__hidden-content">
         <li><a class="menu-list__item" href="Sharps-Disposal">Sharps Disposal</a></li>
         <li><a class="menu-list__item" href="Container-Replacement">Container Replacement Packages</a></li>
         <li><a class="menu-list__item" href="Pharmaceuticals-Disposal">Pharmaceuticals Disposal Services</a></li>
@@ -35,9 +39,11 @@
       </ul>
     </li>
 
-    <li class="arrow">
+    <li class="menu-list__item arrow">
+      <input class="list__hidden-toggle" type="checkbox" checked>
+      <i class="list__chevron"></i>
       <a class="menu-list__item" href="Products">PRODUCTS</a>
-      <ul class="productsSub">
+      <ul class="list__hidden-content">
         <li><a class="menu-list__item" href="Sharps-Containers">Sharps Containers</a></li>
         <li><a class="menu-list__item" href="Biomedical-Waste-Containers">Biomedical Waste Containers</a></li>
         <li><a class="menu-list__item" href="Other-Waste-Containers">Other Waste Containers</a></li>
@@ -49,9 +55,11 @@
       <a class="menu-list__item" href="Global">GLOBAL</a>
     </li>
 
-    <li class="arrow">
+    <li class="menu-list__item arrow">
+      <input class="list__hidden-toggle" type="checkbox" checked>
+      <i class="list__chevron"></i>
       <a class="menu-list__item" href="Contact-Us">CONTACT US</a>
-      <ul class="contactSub">
+      <ul class="list__hidden-content">
         <li><a class="menu-list__item" href="Start-Service">Start a Service</a></li>
         <li><a class="menu-list__item" href="Request-Quote">Request a Quote</a></li>
         <li class="noBorder"><a class="menu-list__item" href="Careers">Careers</a></li>
