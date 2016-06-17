@@ -25,5 +25,4 @@ document.addEventListener("DOMContentLoaded", () => {
     classie.removeClass(constants.body, constants.menuIsOpen);
     classie.removeClass(constants.menu, constants.menuIsOpen);
   }
-  console.log('reds');
 });
