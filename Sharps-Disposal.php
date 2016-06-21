@@ -3,7 +3,7 @@
   $desc = "GICMD is committed to providing industry-leading solutions when it comes to sharps disposal management. Safety is our main priority. Call us.";
 ?>
 <?php include 'components/header.php'; ?>
-<div class="shadow mainImage center mgnT14"><img src="img/sharps.jpg" width="960" height="107" alt="Sharps Container Removal"></div>
+<div class="shadow mainImage center mgnT14" style="background-image: url(img/sharps.jpg);"></div>
 <br>
 <div class="clear"></div>
 <div class="contentBox mgnBI">

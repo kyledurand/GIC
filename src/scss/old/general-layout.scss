@@ -82,14 +82,18 @@ textarea {
 }
 
 .mainImage {
-  height: 107px;
+  padding-bottom: 28%;
+  background-size: cover;
+
+  @include after(medium-screens) {
+    padding-bottom: 11%;
+  }
 }
 
 .mainImageSub {
-  height: 307px;
+  padding-bottom: 32%;
+  background-size: cover;
 }
-
-/*alignment*/
 
 .center {
   margin-left: auto;

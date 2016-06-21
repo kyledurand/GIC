@@ -3,7 +3,7 @@
   $desc = "GICMD offers a wide assortment of sharps waste disposal containers. Whatever suits your needs, we will deliver it to you! Try us today.";
 ?>
 <?php include 'components/header.php'; ?>
-<div class="shadow mainImage center mgnT14"><img src="img/sharps.jpg" width="960" height="107" alt="Sharps Container Removal"></div>
+  <div class="shadow mainImage center mgnT14" style="background-image: url(img/sharps.jpg);"></div>
 <br>
 <div class="clear"></div>
 <div class="contentBox mgnBI">

@@ -7,7 +7,7 @@
   $desc = "We offer efficiency and convenience when managing sharps waste produced at home using our Sharps Waste Disposal Kit. Sign up for this service to enjoy the GICMD advantage.";
 ?>
 <?php include 'components/header.php'; ?>
-<div class="shadow mainImage center mgnT14"><img src="img/sharps.jpg" width="960" height="107" alt="Sharps Container Removal"></div>
+<div class="shadow mainImage center mgnT14" style="background-image: url(img/sharps.jpg);"></div>
 <br>
 <div class="clear"></div>
 <div class="contentBox mgnBI">
