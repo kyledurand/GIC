@@ -22,4 +22,4 @@ Disallow: /OLDSITE/
 
 Disallow: /recaptcha/
 
-
+Disallow: /gic/

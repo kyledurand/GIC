@@ -4,7 +4,7 @@
   $desc = "We are Canada's Medical Disposal company dedicated to providing compliant, efficient and personalized unparalleled solutions tailored to any client's needs.";
 
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="Thanks for Contacting Us"></div>
 
@@ -23,7 +23,7 @@
       <p>We appreciate you taking the time to contact us. We've received your information and we'll be in contact with you soon.</p>
 
       <p>Experience  the GICMD advantage when you call us at <strong><?= $to_phone; ?></strong> (toll free) today. Collaborate with our team of specialist to build the most  convenient package deal for your medical waste disposal.</p>
-      
+
       <!-- Google Code for Lead Conversion Page -->
 <script type="text/javascript">
 /* <![CDATA[ */
@@ -43,7 +43,7 @@ var google_remarketing_only = false;
 <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/978196705/?value=65&amp;label=2-8zCNf8vAgQ4bG40gM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
-      
+
       <p><img class="imgBorder" src="img/Thank-You.jpg" width="600" height="310" alt="Thank You for your time"></p>
 
     </div>

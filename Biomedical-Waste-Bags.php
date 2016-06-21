@@ -2,7 +2,7 @@
   $title = "Biomedical Waste Bags";
   $desc = "Proper segregation and disposal of  biomedical wastes are a must. GICMD's biomedical waste bags are  resilient, promoting worry-free disposal management.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>
@@ -12,7 +12,7 @@
     <h1>Biomedical Waste Bags</h1><div class="lineRuleSolid"></div>
     <div id="left">
       <p>Proper segregation and disposal of  biomedical wastes are a must. You need durable waste bags that promote  worry-free disposal management.<br>
-GICMD&rsquo;s biomedical waste bags are  resilient and multi-purpose. Below are the uses of our biomedical waste bags:      
+GICMD&rsquo;s biomedical waste bags are  resilient and multi-purpose. Below are the uses of our biomedical waste bags:
       <ul>
         <li>For disposing bandages  and swabs</li>
         <li>For disposing mild  laboratory wastes and disposable biomedical wastes</li>

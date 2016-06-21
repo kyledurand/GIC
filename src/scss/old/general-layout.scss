@@ -15,6 +15,7 @@ ul {
 }
 
 a {
+  @include color(blue);
   color: #006db7;
 }
 
@@ -415,7 +416,7 @@ img.gplus_icon{
   font-family: 'Dosis';
   margin: 0px;
   font-weight: lighter;
-  line-height: 20pt;
+  line-height: 1em;
   color: #4c4c4c;
 }
 
@@ -424,19 +425,19 @@ img.gplus_icon{
   font-family: 'Dosis';
   margin: 0px;
   font-weight: lighter;
-  line-height: 20pt;
+  line-height: 1em;
   color: #4c4c4c;
 }
 
 .meta_tag_h1 {
   float: left;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 1em;
 }
 
 .meta_tag_h2 {
   font-size: 20px;
-  line-height: 40px;
+  line-height: 1em;
 }
 
 
@@ -464,7 +465,8 @@ img.gplus_icon{
 .slides_container .btn {
   position: absolute;
   bottom: -23px;
-  right: 10px;
+  right: 0;
+  margin: 0;
 }
 
 .btn:hover{

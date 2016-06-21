@@ -4,7 +4,7 @@
   $keywords = "safe disposal of medical waste, sharps disposal, sharps container, bio medical waste disposal bags, medical waste management";
 ?>
 
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14">
   <img src="img/safety.jpg" width="960" height="107" alt="Medical Waste Removal Safety">

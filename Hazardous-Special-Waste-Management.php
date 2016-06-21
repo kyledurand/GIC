@@ -2,7 +2,7 @@
   $title = "Other Special Wastes Disposal Services";
   $desc = "Aside from biomedical wastes, GICMD specializes in safe  disposal of other types of special wastes.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>
 <div class="clear"></div>
@@ -11,7 +11,7 @@
     <h1>Other Special Wastes Disposal Services</h1><div class="lineRuleSolid"></div>
     <div id="left">
       <p>Aside from biomedical wastes, GICMD specializes in safe  disposal of other types of special wastes.<br>
-        Canada has specific requirements regarding managing of special  wastes. Our GICMD experts will facilitate compliant and eco-friendly procedures  to ensure the protection of human and animal health and the environment.      
+        Canada has specific requirements regarding managing of special  wastes. Our GICMD experts will facilitate compliant and eco-friendly procedures  to ensure the protection of human and animal health and the environment.
 <p><a id="various1" href="#inline1" title="">What are Special Wastes?</a></p>
 
 	<div style="display: none;">

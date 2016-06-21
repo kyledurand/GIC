@@ -2,10 +2,10 @@
   $title = "Waste Disposal for Hospital & Medical Facilities";
   $desc = "GICMD adheres to best practices when handling medical wastes to ensure the safety of those in the facility — staff, your patients and their families.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>
-<div class="clear"></div>	
+<div class="clear"></div>
 <div class="contentBox mgnBI">
   <div class="contentLeft">
     <h1>Hospital and Medical Facility Services</h1><div class="lineRuleSolid"></div>

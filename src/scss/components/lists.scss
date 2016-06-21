@@ -1,10 +1,8 @@
 $bucket-icon-and-padding-size: 60px;
 
 .list {
-  // margin: 0;
-
   * {
-    padding: spacing(tight) / 2 0;
+    margin: 0;
     text-decoration: none;
     list-style: none;
   }

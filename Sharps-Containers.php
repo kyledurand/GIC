@@ -2,7 +2,7 @@
   $title = "Sharps Containers Canada";
   $desc = "GICMD offers a wide assortment of sharps waste disposal containers. Whatever suits your needs, we will deliver it to you! Try us today.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 <div class="shadow mainImage center mgnT14"><img src="img/sharps.jpg" width="960" height="107" alt="Sharps Container Removal"></div>
 <br>
 <div class="clear"></div>
@@ -10,10 +10,10 @@
   <div class="contentLeft">
     <h1>Sharps Waste Containers</h1><div class="lineRuleSolid"></div>
     <div id="left">
-      <p>When disposing sharps waste  materials, a proper disposal container is a must! This helps reduce the risk of  injuries because of needle sticks and other sharp medical objects.      
-      <p>GICMD offers a wide assortment of sharps  waste disposal containers ranging from 1.5L to 100L, and even larger sizes. Our  containers are eco-friendly; you can choose between a reusable or disposable  one.      
-      <p><img src="img/Sharps-Disposal.jpg" width="198" height="280" alt="sharps disposal canada" class="stock">Whatever suits your needs, we will  deliver it to you!       
-        
+      <p>When disposing sharps waste  materials, a proper disposal container is a must! This helps reduce the risk of  injuries because of needle sticks and other sharp medical objects.
+      <p>GICMD offers a wide assortment of sharps  waste disposal containers ranging from 1.5L to 100L, and even larger sizes. Our  containers are eco-friendly; you can choose between a reusable or disposable  one.
+      <p><img src="img/Sharps-Disposal.jpg" width="198" height="280" alt="sharps disposal canada" class="stock">Whatever suits your needs, we will  deliver it to you!
+
       <h3>GICMD&rsquo;s Guarantee</h3>
       <p><strong>Safety</strong></p>
       <p>        GICMD&rsquo;s main concern is the safety  and protection of our clients and the environment. We assure you that our  products and services are completely eco-friendly. </p>

@@ -2,7 +2,7 @@
   $title = "Waste Disposal Product Solutions";
   $desc = "Proper segregation and disposal of  biomedical wastes are required to protect the public and environment from  hazardous substances.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>
@@ -14,7 +14,7 @@
       <p>Proper segregation and disposal of  biomedical wastes are required to protect the public and environment from  hazardous substances. You need durable waste bags and box liners that deliver worry-free  waste disposal management.
       <h3> Medical Waste Bags and  Liners</h3>
       <p>GICMD&rsquo;s medical waste bags and  liners are resilient and multi-purpose.<br>
-        Use yellow bags for disposing the  following:                  
+        Use yellow bags for disposing the  following:
       <ul>
         <li>Bandages, Gauze, and Swabs</li>
         <li>Mild laboratory Wastes </li>

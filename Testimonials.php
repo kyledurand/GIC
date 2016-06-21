@@ -4,7 +4,7 @@
   $desc = "";
 
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 <div class="shadow mainImage center mgnT14"><img src="img/contact.jpg" width="960" height="107" alt="Contact Us for your Medical Waste Disposal Needs"></div>
 <br>
 <div class="clear"></div>
@@ -21,7 +21,7 @@
     <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER" />
 
     <input type="hidden" name="recipients" value="kyledurand@gmail.com" />
-    
+
     <input type="hidden" name="good_url" value="Thank-You.php" />
     <input type="hidden" name="bad_url" value="Sorry.php" />
 
@@ -42,7 +42,7 @@
 
     <!-- this excludes the "email" and "realname" special fields from the body of the email you receive -->
     <input type="hidden" name="mail_options" value="Exclude=email;realname" />
-    
+
     <table border="0">
       <tr>
         <td><input placeholder="email address" type="text" size="31" name="EmailAddr" value=""></td>

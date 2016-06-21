@@ -2,7 +2,7 @@
   $title = "Biomedical & Biohazard Waste Disposal";
   $desc = "You can rely on GICMD to safely dispose your biomedical waste using safe and environmentally friendly approach. Click here to find out more.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>
@@ -11,12 +11,12 @@
   <div class="contentLeft">
     <h1>Biohazard Waste Disposal Services</h1><div class="lineRuleSolid"></div>
     <div id="left">
-      <p>Hospitals, medical clinics, and laboratories are the main  sources of biohazard medical, or <em>biomedical</em>,  wastes. This type of waste can be detrimental to the health and safety of  everyone. Local and federal law requires facilities to ensure the public does  not come into contact with biohazard waste.      
+      <p>Hospitals, medical clinics, and laboratories are the main  sources of biohazard medical, or <em>biomedical</em>,  wastes. This type of waste can be detrimental to the health and safety of  everyone. Local and federal law requires facilities to ensure the public does  not come into contact with biohazard waste.
         <a href="Medical-Waste-FAQ.php">Biohazard Waste FAQ's</a>
       <p>GICMD specializes in compliant disposal of regulated  biomedical waste, focusing on public and environmental safety. We cater to the  specific disposal needs of these healthcare facilities, providing efficient and  exceptional services to all our customers.<br>
 <a id="various1" href="#inline1" title="">What is Biomedical Waste?</a>
-        
-        
+
+
       <div style="display: none;">
 		<div id="inline1" style="width:400px;height:370px;overflow:auto;">
 			<h3>What is Biomedical Waste?</h3>

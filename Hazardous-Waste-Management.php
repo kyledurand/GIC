@@ -4,7 +4,7 @@
   $desc = "GICMD brings you industry-leading solutions to manage your  facility&rsquo;s hazardous wastes.";
 
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>
 <div class="clear"></div>
@@ -12,7 +12,7 @@
   <div class="contentLeft">
     <h1>Hazardous Waste Management</h1><div class="lineRuleSolid"></div>
     <div id="left">
-      <p>GICMD brings you industry-leading solutions to manage your  facility&rsquo;s hazardous wastes:      
+      <p>GICMD brings you industry-leading solutions to manage your  facility&rsquo;s hazardous wastes:
       <ul>
         <li><a href="Chemical-Waste-Disposal.php">Chemical Disposal</a></li>
         <li><a href="Hazardous-Special-Waste-Management.php">Other Special Wastes Disposal</a></li>

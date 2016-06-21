@@ -2,7 +2,7 @@
   $title = "Protective Equipment & Infection Control";
   $desc = "GICMD has a wide selection of Personal Protective Equipment (PPE) to protect the safety of your staff and clients.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>
@@ -37,7 +37,7 @@
         <strong>Hand Sanitizers</strong><br>
         As an alternative to constant hand washing, a hand sanitizer  helps prevent the risk of contamination. Protect the people that come in and  out of your facility by placing GICMD hand sanitizers at common or public  areas.<br>
         <strong>Disinfectant Liquid</strong><br>
-        Keep every surface area in your facility properly cleaned  and disinfected to prevent transfer of bacteria or germs. We guarantee that our  effective disinfectant solutions have low toxicity but are powerful against  contaminants.                        
+        Keep every surface area in your facility properly cleaned  and disinfected to prevent transfer of bacteria or germs. We guarantee that our  effective disinfectant solutions have low toxicity but are powerful against  contaminants.
       <h3>Consult a GICMD Expert!      </h3>
       <p>Maintain a safe and hygienic workplace. Provide your staff  the needed protective equipment and ensure that your facility undergoes a  regular infection control routine. Contact a GICMD customer representative at <strong><?= $to_phone; ?> </strong>(toll free) to find the  products that meet your facility&rsquo;s requirements.    
         <br>

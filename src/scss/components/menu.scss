@@ -28,6 +28,10 @@ $dropdownWidth: 215px;
   height: 30px;
   transition: font-size 0.2s ease-in-out;
 
+  @include before(large-screens) {
+    padding: (spacing(tight) / 2) 0 0;
+  }
+
   @include after(large-screens) {
     @include font-size(large);
     height: 43px;
@@ -116,6 +120,7 @@ $dropdownWidth: 215px;
   left: 0;
   width: 100%;
   height: 100%;
+  overflow: scroll;
   transform: translate3d(100%, 0, 0);
   background-color: color(gray);
 
@@ -134,7 +139,11 @@ $dropdownWidth: 215px;
 }
 
 .menu-list__item {
-  @include color(slate);
+  @include font-size(medium);
+  @include color(blue);
+  position: relative;
+  padding: spacing() 0;
+  z-index: 4;
 }
 
 .menu-dismiss {
@@ -142,4 +151,92 @@ $dropdownWidth: 215px;
   top: 0;
   right: 0;
   padding: spacing(loose);
+}
+
+.list__chevron {
+  position: absolute;
+  transform: translate(spacing() * -1, 0);
+  margin-top: spacing(tight);
+  right: 0;
+
+  &:after,
+  &:before {
+    @include transition(transform property(ease-in-out));
+    content: "";
+    position: absolute;
+    background-color: color(blue);
+    width: 3px;
+    height: 9px;
+  }
+
+  &:before {
+    transform: translate(-2px, 0) rotate(45deg);
+  }
+
+  &:after {
+    transform: translate(2px, 0) rotate(-45deg);
+  }
+}
+
+.list__hidden-content {
+  @include transition(
+    opacity property(ease-in-out),
+    transform property(ease-in-out),
+    max-height property(ease-in-out-slow)
+  );
+  position: relative;
+  padding-left: 0;
+  max-height: 800px;
+  z-index: 2;
+
+  .menu-list__item {
+    @include font-size(small);
+    padding: spacing(tight);
+
+    &:first-of-type {
+      padding-top: spacing(loose);
+    }
+  }
+}
+
+.list__hidden-toggle {
+  @include before(medium-screens) {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+
+    &:checked {
+      z-index: 3;
+
+      &~.list__hidden-content {
+        pointer-events: none;
+        margin-top: 0;
+        max-height: 0;
+        opacity: 0;
+        transform: translateY(spacing() * -1);
+      }
+
+      &~.menu-list__item {
+        z-index: 1;
+      }
+
+
+      &~.list__chevron {
+        &:before {
+          transform: translate(2px, 0) rotate(45deg);
+        }
+
+        &:after {
+          transform: translate(-2px, 0) rotate(-45deg);
+        }
+      }
+    }
+  }
+
+  @include after(medium-screens) {
+    display: none;
+  }
 }

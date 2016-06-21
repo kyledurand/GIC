@@ -2,7 +2,7 @@
   $title = "Biomedical Waste Bag Disposal Services";
   $desc = "GICMD offers customized waste disposal solutions that  correspond to your requirements. Trust us with the pick-up and transportation  of your medical waste bags.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>
@@ -11,10 +11,10 @@
   <div class="contentLeft">
     <h1>Biomedical Waste Bag Disposal Services</h1><div class="lineRuleSolid"></div>
     <div id="left">
-      <p>Ensure that your facility goes through proper disposal of  biohazard wastes. Using the appropriate methods and tools will protect you,  your staff, and your clients.      
-      <p>GICMD offers customized waste disposal solutions that  correspond to your requirements. Trust us with the pick-up and transportation  of your medical waste bags.      
+      <p>Ensure that your facility goes through proper disposal of  biohazard wastes. Using the appropriate methods and tools will protect you,  your staff, and your clients.
+      <p>GICMD offers customized waste disposal solutions that  correspond to your requirements. Trust us with the pick-up and transportation  of your medical waste bags.
       <p>For 100% safety and protection, use our medical waste bag to  line your biomedical waste containers. GICMD offers a wide assortment of  biomedical waste containers and bins. <a id="various1" href="#inline1" title="">What Are Biomedical Waste Bags?</a>
-        
+
       <div style="display: none;">
 		<div id="inline1" style="width:400px;height:130px;overflow:auto;">
 <h3>What are Medical Waste Bags?</h3>

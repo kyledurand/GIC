@@ -4,7 +4,7 @@
   $desc = "View our TOS.";
 
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 
 

@@ -4,7 +4,7 @@
   $desc = "Businesses and retailers generate hazardous and  non-hazardous wastes in their facilities. Classifying wastes can be quite  complicated. Let GICMD do the job for you!";
 
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 

@@ -2,7 +2,7 @@
   $title = "Pharmaceuticals Disposal Services";
   $desc = "GICMD will take care of the entire disposal process, from collecting to transporting your pharmaceutical waste. Contact us and see for yourself.";
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 <div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
 <br>
 <div class="clear"></div>
@@ -10,8 +10,8 @@
   <div class="contentLeft">
     <h1>Pharmaceutical Disposal Services</h1><div class="lineRuleSolid"></div>
     <div id="left">
-      <p>Does your facility produce pharmaceuticals waste? If yes, do  you take the appropriate measures to ensure that wastes such as pills, powders,  or liquids are disposed through safe, compliant, and environmentally friendly processes?       
-      <p> Through medical research, it has been discovered that  improper disposal of pharmaceuticals waste leads to contamination of drinking  water and ground water, which could threaten the existence of aquatic life.      
+      <p>Does your facility produce pharmaceuticals waste? If yes, do  you take the appropriate measures to ensure that wastes such as pills, powders,  or liquids are disposed through safe, compliant, and environmentally friendly processes?
+      <p> Through medical research, it has been discovered that  improper disposal of pharmaceuticals waste leads to contamination of drinking  water and ground water, which could threaten the existence of aquatic life.
       What is Pharmaceuticals Waste?</p>
       <div style="display:none ;">
 		<div id="inline1" style="width:400px;height:370px;overflow:auto;">
@@ -27,7 +27,7 @@
   GICMD&rsquo;s fully integrated disposal solution guarantees the  destruction of dangerous compounds in a compliant and eco-friendly manner. </p>
 		</div>
 	</div>
-      
+
       <h3>Our Expertise in Pharmaceuticals Waste Disposal</h3>
       <p><img src="img/Pharmaceuticals-Disposal2.jpg" alt="Pharmaceuticals Disposal Canada" width="176" height="263" class="stock">The Ministry of Environment enforces strict regulations on  the disposal of pharmaceuticals waste. GICMD&rsquo;s pharmaceuticals waste disposal  solutions are designed to help you identify the regulations that depends on the  following:</p>
       <ul>

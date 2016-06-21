@@ -116,48 +116,66 @@
 }
 
 .idx1 {
-  background-image: url(../img/banner_medical-waste-disposal.jpg)
+  background-image: url(../img/banner_medical-waste-disposal.jpg);
+
+  @include before(medium-screens) {
+    background-position: 32% center;
+  }
 }
 
 .idx2 {
-  background-image: url(../img/banner_ecologically-sustainable.jpg)
+  background-image: url(../img/banner_ecologically-sustainable.jpg);
+
+  @include before(medium-screens) {
+    background-position: 32% center;
+  }
 }
 
 .idx3 {
-  background-image: url(../img/banner_sharps-removal.jpg)
+  background-image: url(../img/banner_sharps-removal.jpg);
+
+  @include before(medium-screens) {
+    background-position: 72% center;
+  }
 }
 
 .mainImageText {
-  font-family: Anton;
-  color: #006db7;
-  background-color: #FFF;
-  opacity: .8;
+  padding: spacing();
+  background-color: color(white);
+  opacity: 0.8;
   border-bottom-left-radius: 4px;
-  padding-right: 5px
+  float: right;
+
+  @include before(medium-screens) {
+    max-width: 60%;
+  }
+
+  @include after(medium-screens) {
+    max-width: 300px;
+  }
+
+  * {
+    text-align: center;
+  }
 }
 
 .mainImageText a:hover {
-  opacity: .5
+  opacity: 0.5
 }
 
 .textBox1 {
-  width: 300px;
   margin: 15px 5px 5px;
   text-align: right
 }
 
 .textBox2 {
-  margin-top: 10px;
-  color: #000;
-  clear: both;
-  width: 260px;
-  padding: 15px 20px 20px;
-  border-top: 1px solid grey
+  @include color(black);
+  margin-top: spacing(loose);
+  padding: 0 spacing(loose);
+  border-top: default(border);
 }
 
 .shadow {
-  -moz-box-shadow: 0 0 10px 0 #999;
-  -webkit-box-shadow: 0 0 10px 0 #999;
   box-shadow: 0 0 10px 0 #999
 }
 

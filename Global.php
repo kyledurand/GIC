@@ -4,7 +4,7 @@
   $desc = "We are Canada's Medical Disposal company dedicated to providing compliant, efficient and personalized unparalleled solutions tailored to any client's needs.";
 
 ?>
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 <div class="shadow mainImage center mgnT14"><img src="img/contact.jpg" width="960" height="107" alt="Contact Us for your Medical Waste Disposal Needs"></div>
 <br>
 <div class="clear"></div>

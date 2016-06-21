@@ -4,7 +4,7 @@
   $keywords = "medical waste compliance, waste management Compliance, medical waste Compliance, waste Compliance, hazardous material compliance";
 ?>
 
-<?php include 'header.php'; ?>
+<?php include 'components/header.php'; ?>
 
 <div class="shadow mainImage center mgnT14">
   <img src="img/contact.jpg" width="960" height="107" alt="About Us">

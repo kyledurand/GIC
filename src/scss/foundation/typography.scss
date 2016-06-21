@@ -1,7 +1,9 @@
 $font-size-map: (
+  extra-small: 1.4rem,
   small: 1.6rem,
   medium: 1.8rem,
   large: 2rem,
+  extra-large: 2.6rem,
 );
 
 @function font-size($size) {
@@ -67,7 +69,7 @@ h1 {
 h2 {
   font-size: 26px;
   font-family: 'Dosis';
-  margin: 8px 0;
+  margin: 0;
   font-weight: 600;
   color: #006db7;
 }
@@ -90,7 +92,7 @@ h4 {
 }
 
 h5 {
-  font-size: 14px;
+  @include font-size(extra-small);
   font-family: Arial, Helvetica, sans-serif;
   margin: 8px 0;
   color: #333;
@@ -154,7 +156,11 @@ h1.services {
 .hero-title {
   font-family: 'Anton';
   font-size: 40px;
-  line-height: 42px;
+  line-height: 1em;
+
+  @include before(medium-screens) {
+    @include font-size(extra-large);
+  }
 }
 
 p {
