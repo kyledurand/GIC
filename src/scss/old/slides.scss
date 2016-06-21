@@ -8,7 +8,11 @@
 
 #slides {
   display: block;
-  position: relative
+  position: relative;
+
+  @include after(medium-screens) {
+    margin-top: spacing();
+  }
 }
 
 .slides_control {

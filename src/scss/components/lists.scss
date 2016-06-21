@@ -27,6 +27,10 @@ $bucket-icon-and-padding-size: 60px;
 }
 
 .services {
-  columns: 3;
+  columns: 2;
   padding-left: $bucket-icon-and-padding-size;
+
+  @include after(medium-screens) {
+    columns: 3;
+  }
 }

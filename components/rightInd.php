@@ -122,7 +122,9 @@
             s.parentNode.insertBefore(po, s);
           })();
         </script>
-        <a href="https://plus.google.com/109851231069854770863/posts" rel="publisher" target="_blank"><img src="../img/googleplus.png" alt="" class="gplus_icon"></a>
+        <a href="https://plus.google.com/109851231069854770863/posts" rel="publisher" target="_blank">
+          <img src="img/googleplus.png" alt="" class="gplus_icon">
+        </a>
         <!--end social plugins-->
         <h3 class="mgnT14" id="serve">Who We Serve</h3>
         <div class="lineRuleSolid" id="serve-div"></div>

@@ -7,6 +7,12 @@
   overflow: hidden;
 }
 
+.hide-before-small {
+  @include before(small-screens) {
+    display: none;
+  }
+}
+
 .hide-before-large {
   @include before(large-screens) {
     display: none;

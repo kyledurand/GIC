@@ -55,27 +55,6 @@
           </div>
         </a>
       </div>
-
-      <div class="idx3">
-        <div class="mainImageText">
-          <div class="textBox1">
-            <h2 class="hero-title">
-              MEDICAL WASTE DISPOSAL SERVICE
-            </h2>
-          </div>
-
-          <div class="textBox2">
-            <h5>Industry leading safety and compliance programs are just a part of GIC's premium healthcare waste solutions.</h5>
-          </div>
-        </div>
-
-        <a href="Start-Service">
-          <div class="btn">
-            <h6>CLICK HERE</h6>
-            <p>TO LEARN MORE</p>
-          </div>
-        </a>
-      </div>
     </div>
 
     <div class="prev">
@@ -86,7 +65,6 @@
       <a class="next" href="#"></a>
     </div>
   </div>
-  <br>
 
   <div class="clear"></div>
 
