@@ -3,7 +3,7 @@
   $desc = " GICMD specialists will collaborate with you to establish the  ideal solutions to deal with your clinic's waste disposal management.";
 ?>
 <?php include 'components/header.php'; ?>
-<div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
+<div class="shadow mainImage center mgnT14" style="background-image: url(img/about.jpg);"></div>
 <br>
 <div class="clear"></div>
 <div class="contentBox mgnBI">

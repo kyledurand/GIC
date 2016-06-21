@@ -5,7 +5,7 @@ $keywords = "RX Waste Disposal, Chemical Disposal Services Toronto";
 ?>
 <?php include 'components/header.php'; ?>
 
-<div class="shadow mainImageSub center mgnT14"><img src="img/about-us.jpg" width="960" height="307" alt="rx waste disposal Toronto"></div>
+<div class="shadow mainImageSub center mgnT14" style="background-image: url(img/about-us.jpg);"></div>
 
 <br>
 

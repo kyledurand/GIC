@@ -3,7 +3,7 @@
   $desc = "Collaborate with GICMD to map out the ideal waste management  to fit your facility and its operations without putting a dent on your budget.";
 ?>
 <?php include 'components/header.php'; ?>
-<div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
+<div class="shadow mainImage center mgnT14" style="background-image: url(img/about.jpg);"></div>
 <br>
 <div class="clear"></div>
 <div class="contentBox mgnBI">

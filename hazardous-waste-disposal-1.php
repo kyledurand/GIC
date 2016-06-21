@@ -6,9 +6,7 @@
 
 <?php include 'components/header.php'; ?>
 
-<div class="shadow mainImage center mgnT14">
-  <img src="img/banner-1.png" width="960" height="107" alt="Hazardous waste disposal">
-</div>
+<div class="shadow mainImage center mgnT14" style="background-image: url(img/banner-1.png);"></div>
 
 <br>
 

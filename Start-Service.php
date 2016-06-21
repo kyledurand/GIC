@@ -48,7 +48,7 @@ input.parsley-error, textarea.parsley-error {
 
 </style>
 
-<div class="shadow mainImage center mgnT14"><img src="img/contact.jpg" width="960" height="107" alt="Contact Us for your Medical Waste Disposal Needs"></div>
+<div class="shadow mainImage center mgnT14" style="background-image: url(img/waste.jpg);"></div>
 
 
 

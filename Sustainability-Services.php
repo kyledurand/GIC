@@ -3,7 +3,7 @@
   $desc = "Through our eco-friendly plan, we continuously develop a program to help ensure the safety  of everyone — people, animals, and their habitats.";
 ?>
 <?php include 'components/header.php'; ?>
-<div class="shadow mainImage center mgnT14"><img src="img/about.jpg" width="960" height="107" alt="About Us"></div>
+<div class="shadow mainImage center mgnT14" style="background-image: url(img/about.jpg);"></div>
 <br>
 <div class="clear"></div>
 <div class="contentBox mgnBI">
