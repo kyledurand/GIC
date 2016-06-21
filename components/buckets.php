@@ -36,9 +36,7 @@
       </p>
     </div>
 
-
     <div class="bucket fl clear">
-
       <p class="costeffective">
         <a href="About-Us.php">
           <b>Cost Effective.</b>
