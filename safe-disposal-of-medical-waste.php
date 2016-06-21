@@ -6,7 +6,7 @@
 
 <?php include 'components/header.php'; ?>
 
-<div class="shadow mainImage center mgnT14" style="background-image: url(img/safety.jpg);"></div>
+<div class="shadow mainImage mainImage--full-width center mgnT14" style="background-image: url(img/safety.jpg);"></div>
 <br>
 <div class="clear"></div>
 <div class="contentBox mgnBI">

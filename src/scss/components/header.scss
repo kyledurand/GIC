@@ -1,4 +1,4 @@
-$logo-width: rem(200px);
+$logo-width: rem(180px);
 $logo-width-medium: rem(224px);
 $logo-width-large: rem(274px);
 
@@ -7,6 +7,7 @@ $logo-width-large: rem(274px);
   display: none;
 
   @include after(medium-screens) {
+    display: block;
     display: flex;
   }
 }
@@ -19,6 +20,10 @@ $logo-width-large: rem(274px);
 
 .logo {
   padding: spacing(tight);
+  text-align: center;
+}
+
+.logo img {
   max-width: $logo-width - spacing() * 2;
 
   @include after(medium-screens) {

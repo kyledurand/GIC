@@ -8,6 +8,7 @@ $dropdownWidth: 215px;
 .expanded li {
   flex: 1 1 auto;
   position: relative;
+  display: inline-block;
   padding: 1px spacing(tight);
 }
 
