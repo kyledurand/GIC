@@ -23,3 +23,7 @@ Disallow: /OLDSITE/
 Disallow: /recaptcha/
 
 Disallow: /gic/
+
+Disallow: /new/
+
+Disallow: /backup/
