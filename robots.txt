@@ -2,11 +2,7 @@
 
 # http://code.google.com/web/controlcrawlindex/
 
-
-
 User-agent: *
-
-
 
 Disallow: /BackupKyle/
 
@@ -27,3 +23,5 @@ Disallow: /gic/
 Disallow: /new/
 
 Disallow: /backup/
+
+Disallow: /2013-Site/
