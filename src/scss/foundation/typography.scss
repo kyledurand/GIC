@@ -78,7 +78,7 @@ h3 {
   @include color(slate, base);
   font-size: 24px;
   font-family: 'Dosis';
-  margin: 0;
+  margin: 0 0 spacing();
   font-weight: lighter;
   line-height: 20pt;
 }
